@@ -1,0 +1,1 @@
+<h1>We do not collect any information from any user. This is merely school project as of now. I think it would be cool to have a google sign in option!</h1>

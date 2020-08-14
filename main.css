@@ -1,0 +1,277 @@
+/*  Our Trendy Markt website is made using bootstrap mixed along with this css file.
+    This css file includes the properties for parts of ALL pages except the p13-aboutus page.
+    As you may notice, this file is not completely minified, and many comments/spaces are left.
+    I purposely left those in order to ease the reading for anyone viewing this file.
+
+    [Compiled by Matthew Pan]
+ */
+.container {
+  max-width: 960px;
+}
+/* [P1] Front Page by Matthew Pan 
+Site Header */
+.site-header {
+  background-color: #85144b;
+}
+.btnposition {
+position: fixed;
+right: 0%;
+bottom:0%;
+}
+.site-header a {
+  color: #fff;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #001f3f;
+  text-decoration: none;
+}
+/* Hover Effect */
+.aisle:hover{
+  opacity: 0.3;
+}
+a:hover {
+  color: whitesmoke;
+}
+/* Images for Front Page */
+.veggies, .fruits, .dairy, .meat, .snacks, .pastry, .other1, .other2 {
+  background-size: cover;
+  background-color: #001f3f;
+  background-position: center;
+}
+.veggies {background-image: url("Pictures/veggies1.jpeg");}
+.fruits {background-image: url("Pictures/fruits1.jpeg");}
+.dairy {background-image: url("Pictures/dairy.jpeg");}
+.meat {background-image: url("Pictures/meat2.jpeg");}
+.snacks {background-image: url("Pictures/snacks4.jpeg");}
+.pastry {background-image: url("Pictures/pastry2.jpeg");}
+.other1 {background-image: url('Pictures/citron.jpeg');}
+.other2 {background-image: url('Pictures/contest.JPG');}
+.banner {background-color: #001f3f;}
+/* Font */
+body {
+  font-family:Helvetica, Arial, sans-serif;
+}
+.d-md-flex {
+  font-family:Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+}
+.display-5 {
+  color: whitesmoke;
+  font-weight: bolder;
+  text-shadow: black 1px 0 10px;
+}
+/* Extra utilities */
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }}
+.overflow-hidden { overflow: hidden; }
+/* >>> [P2] ALL AISLE PAGES BELOW <<<*/
+.veggie1, .veggie2, .veggie3, .fruit1, .fruit2, .fruit3, .dairy1, .dairy2, .dairy3, .meat1, .meat2, .meat3, .snack1, .snack2, .snack3, .pastry1, .pastry2, .pastry3  {
+  background-size: cover;
+  background-color: #001f3f;
+  background-position: center;}
+/* >>> [P2] Aisle 1: Vegetables (Lea)*/
+.veggie1 {background-image: url("Pictures/peas.jpg");}
+.veggie2 {background-image: url("Pictures/tomato.jpg");}
+.veggie3 {background-image: url("Pictures/peppers.jpg");}
+/*  >>> [P2] Aisle 2: Fruits*/
+  .fruit1 {background-image: url("Pictures/mango.jpg");}
+  .fruit2 {background-image: url("Pictures/apple.jpg");}
+  .fruit3 {background-image: url("Pictures/peach.jpg");}
+/* >>> [P2] Aisle 3: Dairy*/
+  .dairy1 {background-image: url("Pictures/eggs.jpg");}
+  .dairy2 {background-image: url("Pictures/milk.jpg");}
+  .dairy3 {background-image: url("Pictures/cheese.jpg");}
+/*>>> [P2] Aisle 4: Meat<*/
+  .meat1 {background-image: url("Pictures/burger.jpg");}
+  .meat2 {background-image: url("Pictures/kebabs.jpg");}
+  .meat3 {background-image: url("Pictures/Fish.jpg");}
+/* [P2] Aisle 5: Snacks*/
+.snack1 {background-image: url("Pictures/snacks3.jpeg");}
+.snack2 {background-image: url("Pictures/snacks7.jpg");background-position: left;}
+.snack3 {background-image: url("Pictures/snacks4.jpeg");}
+/* [P2] Aisle 6: Pastry*/
+  .pastry1 {background-image: url("Pictures/pastry3.jpeg");}
+  .pastry2 {
+    background-image: url("Pictures/pastry1.jpeg");
+    background-position: left;}
+  .pastry3 {background-image: url("Pictures/pastry4.jpg");}
+/* [P3] Product Pages by Matthew Pan (+Bootstrap)*/
+ .productwrap img {
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.text-wrap {
+  word-wrap: break-word
+}
+/* [P4] Shopping Cart Page by Ribelle El Ayoubi*/
+.page-header {font-size:20px; color: #85144b; font-weight: bold}
+.beta{display: flex; justify-content:space-between; overflow-x:auto; overflow-y:auto; }
+.cart-list{justify-content: flex-start;  border:solid; overflow-x: auto; overflow-y:auto;  border-color:darkgrey; border-width:1px; border-radius:8px; margin-right:30px; }
+.cartfax{display:flex; overflow-x: auto; overflow-y:auto; justify-content: space-between; margin-top:20px;padding-left:20px; padding-right:20px;padding-bottom:20px;}
+.product-image{width:110px; border:solid; justify-content: left; border-radius:15px; border-width: thin; border-color:darkgrey;}
+.product-fax{ justify-content:right; width:550px; margin-top:40px; overflow-x: auto; overflow-y:auto;}
+.name-cell{padding:10px; overflow-x: auto; overflow-y:auto;}
+.small-cell{text-align:center; overflow-x: auto; overflow-y:auto;}
+.small-{width:35px;text-align:center; font-weight:bold; }
+.qty1{border:solid; border-radius:8px; width:35px; overflow-x: auto; overflow-y:auto;}
+.total{justify-content:center; text-align: center; overflow-x: auto; overflow-y:auto; display:flex; flex-wrap: wrap; padding:10px; border:solid;
+border-color:darkgrey; border-width:1px; border-radius:8px; width: 200px; display:flex;}
+.total-title{ justify-content:center; text-align:center; overflow-x: auto; overflow-y:auto; color: #85144b; font-weight:bold;font-size: 20px;}
+table.t1 {width:100%; overflow-x: auto; overflow-y:auto;}
+tr.t2{font-weight: bold;}
+input.t1{text-align:center;}
+/* [P5] Sign in/Login Page by Matthew Pan */
+.login {
+  width: 280px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+}
+.login h1 {
+  border-bottom: 6px solid #85144b;
+  margin-bottom: 50px;
+  padding: 13px;
+}
+.textbox {
+ width: 100%;
+ overflow: hidden;
+ padding: 8px;
+ margin: 8px;
+ border-bottom: 1px solid #85144b;
+}
+.textbox i {
+  width: 26px;
+  text-align: center;
+  float: left;
+}
+.textbox input {
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 15px;
+  width: 80%;
+  margin: 0 10px;
+  float:left;
+}
+.btn-danger {
+  width: 100%;
+  background: #85144b;
+}
+.login-bg {
+  margin: 0;
+  padding: 0;
+  background-image: url("Pictures/veggies1.jpeg");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow:hidden;
+}
+/*[P6] Sign up Page by Maya McRae*/
+input[type=text], select, textarea{
+  width: 50%;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+/* 30 width collum presentation*/
+.collum30 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+/* 70 width collum presentation*/
+.collum70 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+/* For a responsive page */
+@media screen and (max-width: 600px) {
+  .collum30, .collum70, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/*[P7]+[P8]+[P9]+[P10]+[P11]+[P12]: Back store css pages by Mohammad, Lea and Mira.*/
+.Krusty-text{ 
+  text-align:center;
+  font-family: fantasy;
+  text-decoration: underline;
+}
+.Krusty-text1{
+  text-align: center;
+}
+/* The side navigation menu */
+.sidebar {
+margin: 0;
+padding: 0;
+width: 200px;
+background-color: #f1f1f1;
+position: fixed;
+height: 100%;
+overflow: auto;
+}
+/* Sidebar links */
+.sidebar a {
+display: block;
+color: black;
+padding: 16px;
+text-decoration: none;
+}
+/* Active/current link */
+.sidebar a.active {
+color: black;
+}
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+background-color: #555;
+color: white;
+}
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+margin-left: 200px;
+padding: 1px 16px;
+height: 1000px;
+}
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+.sidebar {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.sidebar a {float: left;}
+div.content {margin-left: 0;}
+}
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+.sidebar a {
+  text-align: center;
+  float: none;}
+}
+tr,table{
+           border-collapse:inherit;
+          width:60%;
+          border-style: inset;
+          border-color:grey;
+          border-width:thin;
+          text-align: center
+}
+/*[P14] Contest Page by Ribelle El Ayoubi*/
+.contest-cont { width: 100%; display:flex; flex-wrap: wrap;
+justify-content:center;overflow-x:auto; margin-top:20px;}
+.contest-pic{width: 1000px; justify-content: center; align-self:flex-start;}
+.contest-form{border-style:solid; border-radius:8px; border-width:thin; border-color: darkgrey; align-self: flex-end; margin:20px; padding:10px;}
+table.t3 {width: 100%; font-weight: bold;}
