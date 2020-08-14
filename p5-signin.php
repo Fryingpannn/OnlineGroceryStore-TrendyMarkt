@@ -18,7 +18,7 @@
         <nav class="site-header sticky-top py-1 border rounded">
             <div class="container d-flex justify-content-between">
               <a class="py-2" href="p13-aboutus.php">About us</a> 
-              <a class="py-2" href="index.html">Home</a>
+              <a class="py-2" href="index.php">Home</a>
               <a class="py-2" href="p6-signup.php">Sign up</a>
             </div>
         </nav>
@@ -43,7 +43,7 @@
                     <input class="form-check-input" type="checkbox" id="remember" name="remember">
                     <label class="form-check-label" for="remember">Remember Me</label>
                 </div>
-                    <button href="index.html" class="btn btn-danger mt-2" type="submit" name="login-submit" onclick="emptyLogin();">Sign in</button>
+                    <button href="index.php" class="btn btn-danger mt-2" type="submit" name="login-submit" onclick="emptyLogin();">Sign in</button>
                     <div class="g-signin2 d-flex align-items-center justify-content-center pt-3" data-onsuccess="onSignIn"></div>
             </form>
             <p class="text-center font-weight-bold">Forgot password? <a href="p6-signup.php">Click here</a></p>

@@ -14,7 +14,7 @@ if(isset($_POST['login-submit'])){ //checking if user got here from submit butto
         $sql = "SELECT * FROM users WHERE emailUsers=?";
         $stmt = mysqli_stmt_init($conn);
         if(!mysqli_stmt_prepare($stmt, $sql)){ //checking if $sql is good to go with $stmt, prepare statement
-            header("Location: ../index.html?error=sqlerror");
+            header("Location: ../index.php?error=sqlerror");
             exit();
         }
         else{ //grab info we got from $sql;
@@ -33,7 +33,7 @@ if(isset($_POST['login-submit'])){ //checking if user got here from submit butto
                     $_SESSION['userName'] = $row['first_nameUsers'];
                     $_SESSION['userEmail'] = $row['emailUsers'];
 
-                    header("Location: ../index.html?login=success");
+                    header("Location: ../index.php?login=success");
                     exit();
                 }
                 else{
@@ -49,6 +49,6 @@ if(isset($_POST['login-submit'])){ //checking if user got here from submit butto
     }
 }
 else {
-    header("Location: ../index.html");
+    header("Location: ../index.php");
     exit();
 }

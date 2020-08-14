@@ -18,7 +18,7 @@
 <nav>
     <nav class="site-header sticky-top py-1 border border rounded">
         <div class="container d-flex flex-row justify-content-between">
-            <a class="py-2" href="index.html">Home</a> 
+            <a class="py-2" href="index.php">Home</a> 
             <a class="py-2" href="p13-aboutus.php">About us</a> 
             <a class="py-2" href="p4-cart.php">Cart</a>
             <a class="py-2" href="p6-signup.php">Sign up</a>
