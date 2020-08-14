@@ -15,14 +15,14 @@
   <body>  <!--Navigation bar-->
     <nav class="site-header sticky-top py-1 border rounded">
       <div class="container d-flex justify-content-between">
-        <a class="py-2" href="index.html">Home</a> 
-        <a class="py-2" href="p13-aboutus.html">About us</a> 
-        <a class="py-2" href="p4-cart.html">Cart</a>
+        <a class="py-2" href="index.php">Home</a> 
+        <a class="py-2" href="p13-aboutus.php">About us</a> 
+        <a class="py-2" href="p4-cart.php">Cart</a>
         <?php
         if(!isset($_SESSION['userId']))
-        echo '<a class="py-2" href="p6-signup.html">Sign up</a>';
+        echo '<a class="py-2" href="p6-signup.php">Sign up</a>';
         if(isset($_SESSION['userName']) && $_SESSION['userName'] == 'admin')
-          echo '<a class="btn btn-warning text-dark" type="button" role="button" href="p7-productlist.html">Back Store</a>';
+          echo '<a class="btn btn-warning text-dark" type="button" role="button" href="p7-productlist.php">Back Store</a>';
         ?>
       </div>
     </nav>
@@ -42,7 +42,7 @@
         }
         else {
           echo '<p class="d-flex justify-content-center w-25 p-1 m-3 border rounded" style="position:relative; left:35%;">You are logged out.</p>
-          <a class="btn btn-outline-success" href="p5-signin.html" role="button">Login</a>';
+          <a class="btn btn-outline-success" href="p5-signin.php" role="button">Login</a>';
         }
         ?>
         <p class="small mt-2">We buy these items in bulk after carefully analyzing the latest food trends to deliver 
@@ -51,7 +51,7 @@
     </div>
     <!-- First row of 2 aisles -->
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <a href="p2-aisle-vegetable.html"> <!-- 1st aisle -->
+      <a href="p2-aisle-vegetable.php"> <!-- 1st aisle -->
       <div class="veggies aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
         <div class="my-3 py-3 border" >
           <h2 class="display-5">Trendy Vegetables</h2>
@@ -60,7 +60,7 @@
         <div style="height: 300px;"></div>
       </div>
       </a>
-      <a href="p2-aisle-fruit.html">  <!-- 2nd aisle -->
+      <a href="p2-aisle-fruit.php">  <!-- 2nd aisle -->
       <div class="fruits aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
         <div class="my-3 py-3 border">
           <h2 class="display-5">Trendy Fruits</h2>
@@ -72,7 +72,7 @@
     </div>
     <!-- 2nd row of aisles -->
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <a href="p2-aisle-dairy.html"> <!-- 3rd aisle -->
+      <a href="p2-aisle-dairy.php"> <!-- 3rd aisle -->
         <div class="dairy aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
           <div class="my-3 p-3 border">
             <h2 class="display-5">Trendy Dairy</h2>
@@ -81,7 +81,7 @@
           <div style="height: 300px;"></div>
         </div>
       </a>
-      <a href="p2-aisle-meat.html">  <!-- 4th aisle -->
+      <a href="p2-aisle-meat.php">  <!-- 4th aisle -->
         <div class="meat aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
           <div class="my-3 py-3 border">
             <h2 class="display-5">Trendy Meat</h2>
@@ -93,7 +93,7 @@
     </div>
     <!-- 3rd row of aisles -->
     <div class="d-md-flex flex-md-equal w-100 my-md-6 pl-md-3">
-      <a href="p2-aisle-snack.html"> <!-- 5th aisle -->
+      <a href="p2-aisle-snack.php"> <!-- 5th aisle -->
       <div class="snacks aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
         <div class="my-3 p-3 border">
           <h2 class="display-5">Trendy Snacks</h2>
@@ -102,7 +102,7 @@
         <div style="height: 300px;"></div>
       </div>
       </a>
-      <a href="p2-aisle-pastry.html"> <!-- 6th aisles -->
+      <a href="p2-aisle-pastry.php"> <!-- 6th aisles -->
         <div class="pastry aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
           <div class="my-3 py-3 border">
             <h2 class="display-5">Trendy Pastry</h2>
@@ -123,7 +123,7 @@
           <div style="height: 300px;"></div>
         </div>
       </a>
-      <a href="p14-contest.html"> <!-- social -->
+      <a href="p14-contest.php"> <!-- social -->
       <div class="other2 aisle border rounded shadow-lg bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
         <div class="my-3 py-3 border">
           <h2 class="display-5">Contest</h2>

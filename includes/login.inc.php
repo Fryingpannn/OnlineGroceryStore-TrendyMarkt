@@ -7,7 +7,7 @@ if(isset($_POST['login-submit'])){ //checking if user got here from submit butto
     $password = $_POST['pwd'];
 
     if(empty($email) || empty($password)){
-        header("Location: ../p5-signin.html?error=emptyfields");
+        header("Location: ../p5-signin.php?error=emptyfields");
         exit();
     }
     else {
@@ -24,7 +24,7 @@ if(isset($_POST['login-submit'])){ //checking if user got here from submit butto
             if($row = mysqli_fetch_assoc($result)){ //storing $result into an associative array to allow php manipulation
                 $pwdCheck = password_verify($password, $row['pwdUsers']); //checking if user entered pwd is same as the one in db. (will hash the user input pwd prior)
                 if($pwdCheck == false){
-                    header("Location: ../p5-signin.html?error=wrongpwd");
+                    header("Location: ../p5-signin.php?error=wrongpwd");
                     exit();
                 }
                 else if($pwdCheck == true){ //we want lock in user if success login: need session, global variable that has info of user.
@@ -37,12 +37,12 @@ if(isset($_POST['login-submit'])){ //checking if user got here from submit butto
                     exit();
                 }
                 else{
-                    header("Location: ../p5-signin.html?error=wrongpwd");
+                    header("Location: ../p5-signin.php?error=wrongpwd");
                     exit();
                 }
             }
             else{ //if $result is empty
-                header("Location: ../p5-signin.html?error=emailDNE");
+                header("Location: ../p5-signin.php?error=emailDNE");
                 exit();
             }
         }
