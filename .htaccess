@@ -1,2 +1,3 @@
 #allow .html to be processed as PHP 
 AddType application/x-httpd-php .html .htm 
+DirectoryIndex index.html
