@@ -1,3 +1,5 @@
+<?php session_start();
+  require 'includes/dbh.inc.php'; ?>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -33,41 +35,29 @@
       <h1 style="margin-top: 50px;margin-left:40px" class="Krusty-text1">User List</h1>
       <br>
           <div class="content">
-   <table class="table border rounded">
-        <tr>
-        <td style="height:50px;" colspan="3"></td>
-            <td colspan="3"><input type="text" name="Search" placeholder="Search for user"/></td>
-        </tr>
-    <tr style="height:100px; line-height: 3;">
-        <td>Emails</td>
-        <td>First name</td>
-        <td> Last Name</td>
-        <td> Date Joined</td>
-        </tr>
-       <tr>
-           <td>FoodLover780@gmail.com</td>
-           <td>Allen</td>
-           <td>Houston</td>
-           <td>26/01/2020</td>
-       </tr>
-       <tr>
-           <td>EasyMoneyKing@gmail.com</td>
-           <td>Kevin</td>
-           <td>Durant</td>
-           <td>27/09/2019</td>
-       </tr>
-       <tr>
-           <td>VeganGalore@gmail.com</td>
-           <td>Bob</td>
-           <td>James</td>
-           <td>19/02/2020</td>
-       </tr>
-       <tr>
-           <td>SaveTheAnimals345@gmail.com</td>
-           <td>Karen</td>
-           <td>Knight</td>
-           <td>17/08/2019</td>
-       </tr>
+   <table class="table border rounded table-striped table-hover table-bordered">
+    <caption><a class ="text-info" href="#top">Go back top</a></caption>
+    <thead class="">
+      <tr style="height:80px; line-height: 3;">
+          <th scope="col">#Id</td>
+          <th scope="col">Name</td>
+          <th scope="col">Email</td>
+      </tr>
+    </thead>
+    <?php // DISPLAYING ALL USERS FROM DATABASE IN USER LIST
+      $sql = "SELECT idUsers, first_nameUsers, emailUsers from users";
+      $result = $conn-> query($sql); //execute the query
+
+      if($result-> num_rows > 0){ //if more than 0 rows
+        while($row = $result-> fetch_assoc()){ //display each row
+          echo "<tr><td>". $row['idUsers']. "</td><td>". $row['first_nameUsers']. "</td><td>". $row['emailUsers']. "</td></tr>";
+        }
+      }
+      else{ //if no users
+        echo "<tr><td>No users</td></tr>";
+      }
+      $conn-> close();
+    ?>
       </table>
             <br>
             <p style="text-align: center">To edit your user profile :<a href="p10-editprofile.html">&nbsp Please click here !</a></p>

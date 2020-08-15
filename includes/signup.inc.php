@@ -58,6 +58,7 @@ if(isset($_POST["signup-submit"])){ //checking if came here from click submit
                     $hashedPwd = password_hash($password, PASSWORD_DEFAULT);    //hasing password (security: if hacker gets in db he'll see all the pw)
                     mysqli_stmt_bind_param($stmt, "sss", $username, $email, $hashedPwd); //variables inserting
                     mysqli_stmt_execute($stmt);
+
                     header("Location: ../p6-signup.php?signup=success");
                     exit();
                 }
@@ -71,4 +72,3 @@ else{
     header("Location: ../p6-signup.php"); //if user didnt come from 'submit', return to sign up
     exit();
 }
-

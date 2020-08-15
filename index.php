@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="keywords" content="grocery store, food, ingredients, trendy, meat, vegetables, fruits, snacks, pastry, soen287">
+    <meta name="keywords" content="trendymarkt, grocery store, food, ingredients, trendy, meat, vegetables, fruits, snacks, pastry, soen287">
     <meta name="description" content="This is the home page for the grocery store Trendy Markt where we sell the trendiest ingredients.">
     <meta name="author" content="Matthew Pan">
     <title>Trendy Markt Grocery Store</title>
@@ -20,7 +20,7 @@
         <a class="py-2" href="p4-cart.php">Cart</a>
         <?php
         if(!isset($_SESSION['userId']))
-        echo '<a class="py-2" href="p6-signup.php">Sign up</a>';
+          echo '<a class="py-2" href="p6-signup.php">Sign up</a>';
         if(isset($_SESSION['userName']) && $_SESSION['userName'] == 'admin')
           echo '<a class="btn btn-warning text-dark" type="button" role="button" href="p7-productlist.php">Back Store</a>';
         ?>
