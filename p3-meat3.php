@@ -28,7 +28,7 @@
       <div class="col-md-6 mx-auto my-3">
         <h1 class="display-4 font-weight-normal">Trendy Markt <span class="spinner spinner-grow spinner-grow-sm text-success"></span></h1>
         <p class="lead font-weight-normal">The Latest Food Trends</p>
-        <a class="btn btn-outline-success" href="p5-signin.php" role="button">Login</a>
+  <span></span>
         <p class="small pt-4">All of these are thoroughly checked by our world-reknown chefs, and go a customary quality check before they are packaged and delivered to our customers. </p>
       </div>
     </div>

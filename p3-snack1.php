@@ -28,7 +28,7 @@
       <div class="col-md-6 mx-auto my-3">
         <h1 class="display-4 font-weight-normal">Trendy Markt <span class="spinner spinner-grow spinner-grow-sm text-success"></span></h1>
         <p class="lead font-weight-normal">The Latest Food Trends</p>
-        <a class="btn btn-outline-success" href="p5-signin.php" role="button">Login</a>
+  <span></span>
         <p class="small pt-4">We buy these items in bulk after carefully analyzing the latest food trends to deliver 
           you the most popular nutriments at the cheapest price. </p>
       </div>
@@ -39,7 +39,7 @@
             <div class="col-md-4 order-2 order-md-1 p-2 m-3 border"> <!-- Use order-# to change the order of divs! (order-md-1 for when >768px -->
                 <img src="Pictures/snacks3.jpeg" alt="snacks1">
             </div>
-            <div class="col-md-7 order-1 order-md-2 p-2 my-3 border rounded">
+            <form action="addToCart.php" method="post" class="col-md-7 order-1 order-md-2 p-2 my-3 border rounded"> <!-- changed from div to form -->
                 <p class="text-center pt-3 font-weight-bold">Trendy Snacks</p>
                 <h2 style="display: inline-block" class="p-3 ml-2 border rounded shadow-sm">Brown Sugar Yogourt</h2>
                 <span class="badge badge-success align-top m-1 shadow">NEW!</span>
@@ -51,6 +51,7 @@
                     <i class="fa fa-star" aria-hidden="true"></i>
                 </p>
                 <p class="lead font-weight-bold text-warning m-4">CAD $9,99</p>
+                <input type="hidden" name="item" value="Brown Sugar Yogourt|9.99|Pictures/snacks3.jpeg"> <!-- added this input -->
                 <p class="m-4"><strong>Unit: </strong>2 x 100g</p>
                 <p class="m-4"><strong>Ingredients:</strong></p>
                 <ul>
@@ -69,7 +70,7 @@
                     This delicacy instills the careful mix of brown sugar and yogourt. Its rich nutriments will revitalize your spirit and set you ready for your day.
                     </div>
                 </p>
-            </div>
+          </form> <!-- changed from div to form -->
         </div>
     </div>
     <!-- Footer -->

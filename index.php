@@ -1,4 +1,6 @@
-<?php session_start(); ?>
+<?php session_start(); 
+ var_dump($_SESSION);
+ ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -38,7 +40,7 @@
         $name = $_SESSION['userName'];
         if(isset($_SESSION['userId'])){
           echo '<div class="container border rounded m-3 p-2" style="width: 30%; position: relative; left: 48%; transform: translate(-50%);">Hi '.$name.',<br>You are logged in!</div>
-          <form action="includes/logout.inc.php" method="post"><button class="btn btn-outline-secondary" type="submit" name="logout-submit">Logout</button></form>';
+          <form action="includes/logout.inc.php" method="post"><button class="btn btn-outline-warning" type="submit" name="logout-submit">Logout</button></form>';
         }
         else {
           echo '<p class="d-flex justify-content-center w-25 p-1 m-3 border rounded" style="position:relative; left:35%;">You are logged out.</p>

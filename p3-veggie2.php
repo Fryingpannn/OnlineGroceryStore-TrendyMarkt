@@ -27,7 +27,7 @@
       <div class="col-md-6 mx-auto my-3">
         <h1 class="display-4 font-weight-normal">Trendy Markt <span class="spinner spinner-grow spinner-grow-sm text-success"></span></h1>
         <p class="lead font-weight-normal">The Latest Food Trends</p>
-        <a class="btn btn-outline-success" href="p5-signin.php" role="button">Login</a>
+  <span></span>
         <p class="small pt-4">We buy these items in bulk after carefully analyzing the latest food trends to deliver 
           you the most popular nutriments at the cheapest price. </p>
       </div>
