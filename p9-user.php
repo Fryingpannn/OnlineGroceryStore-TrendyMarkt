@@ -50,7 +50,8 @@
 
       if($result-> num_rows > 0){ //if more than 0 rows
         while($row = $result-> fetch_assoc()){ //display each row
-          echo "<tr><td>". $row['idUsers']. "</td><td>". $row['first_nameUsers']. "</td><td>". $row['emailUsers']. "</td></tr>";
+          if(!($row['emailUsers'] == 'admin@trendymarkt.com'))
+            echo "<tr><td>". $row['idUsers']. "</td><td>". $row['first_nameUsers']. "</td><td>". $row['emailUsers']. "</td></tr>";
         }
       }
       else{ //if no users
