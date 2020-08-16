@@ -62,7 +62,7 @@
                 <p class="m-4"><strong>Availability: </strong>In Stock</p>
                 <label for="qty" class="ml-4"><strong>Quantity:</strong>
                     <input type="text" id="qty" name="qty" class="small w-25 text-right saveValue">
-                    <button class="btn btn-outline-success btn-sm m-2 mt-3" href="#" role="submit" id="addToCart">Add to Cart</button>
+                    <button class="btn btn-outline-success btn-sm m-2 mt-3" role="submit" id="addToCart">Add to Cart</button>
                 </label>
                 <p>
                     <button class="btn btn-info btn-sm m-2 mr-3 rounded-pill" data-toggle="collapse" data-target="#moreinfo">More info</button>

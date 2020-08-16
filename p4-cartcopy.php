@@ -1,4 +1,6 @@
-<?php session_start(); ?>
+<?php session_start(); 
+ var_dump($_SESSION);
+ ?>
 <!doctype html>
 
 <head>
@@ -49,7 +51,7 @@
         <div class="row">
             <div class="col-lg-9" id="frameWork">
 
-            <?php 
+             <?php 
     if(empty(!$_SESSION['name'])){
         $name = $_SESSION['name'];
         $price = $_SESSION['price']; 
@@ -84,9 +86,9 @@
     }
     }
     else {
-        echo "<h2>Empty cart</h2>";
+        echo "<h2 class='text-center'>Empty cart</h2>";
     }
-            ?>
+            ?> 
 
 
             </div>
