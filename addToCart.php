@@ -1,6 +1,6 @@
 <?php
  session_start();
-var_dump($_SESSION);
+
     if(empty($_SESSION['name'])){
         $_SESSION['name'] = array();
         $_SESSION['price'] = array();
@@ -15,8 +15,6 @@ var_dump($_SESSION);
     array_push($_SESSION['name'], $details[0]);
     array_push($_SESSION['price'], $details[1]);
     array_push($_SESSION['pic'], $details[2]);
-
-    var_dump($_SESSION);
 
    //header("Location: ../trendymarkt/p4-cartcopy.php");
 ?>
