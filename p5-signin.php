@@ -23,7 +23,14 @@
             </div>
         </nav>
         <div class="container login border rounded">
-          <h1 class="lead display-4">Login</h1>
+          <h1 class="lead display-4 ">Login
+          <button class="btn btn-info btn-sm m-2 mr-3 rounded-pill float-right" data-toggle="collapse" data-target="#moreinfo">Admin</button>
+                    <p id="moreinfo" class="collapse text-wrap lead text-warning font-weight-bold" style="font-size: 14px;">
+                </br>Login as administrator to access backstore.</br></br>
+                    u: admin@trendymarkt.com</br>
+                    p: admin
+                    </p>
+          </h1>
           <?php
           if(isset($_GET['error']) && $_GET['error'] == 'wrongpwd') 
             echo '<p class="text-danger text-center">Incorrect password.</br>Please try again.</p>';
@@ -52,5 +59,8 @@
         <script src="https://apis.google.com/js/platform.js" async defer></script>
         <script type="text/Javascript" src="validation.js"></script>
         <script type="text/Javascript" src="loginr.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </body>
 </html>
