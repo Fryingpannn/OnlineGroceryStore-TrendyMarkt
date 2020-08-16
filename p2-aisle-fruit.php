@@ -32,7 +32,7 @@
       </div>
     </div>
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <a href="p3-fruit1.html">
+      <a href="p3-fruit1.php">
       <div class="fruit1 aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
         <div class="my-3 py-3 border" >
           <h4 class="display-5">Ataulfo Mango</h4>
@@ -41,7 +41,7 @@
         <div style="height: 300px;"></div>
       </div>
       </a>
-      <a href="p3-fruit2.html">
+      <a href="p3-fruit2.php">
         <div class="fruit2 aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
           <div class="my-3 p-3 border">
             <h2 class="display-5">Red Apple</h2>
@@ -50,7 +50,7 @@
           <div style="height: 300px;"></div>
         </div>
       </a>
-    <a href="p3-fruit3.html">
+    <a href="p3-fruit3.php">
       <div class="fruit3 aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
         <div class="my-3 py-3 border">
           <h2 class="display-5">Peach</h2>

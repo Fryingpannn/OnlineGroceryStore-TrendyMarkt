@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaseItems>
+  <item>
+    <itemAisle>Fruit</itemAisle>
+    <itemName>Mango</itemName>
+    <itemDescription>fruit:Mango</itemDescription>
+    <itemRating/>
+    <itemPrice>2,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>135</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Fruit</itemAisle>
+    <itemName>Oranges</itemName>
+    <itemDescription>Fruit:Oranges</itemDescription>
+    <itemRating/>
+    <itemPrice>1,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>100</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Fruit</itemAisle>
+    <itemName>Peache</itemName>
+    <itemDescription>Fruit:Peach</itemDescription>
+    <itemRating/>
+    <itemPrice>1,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>100</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Snacks</itemAisle>
+    <itemName>Brown Sugar Yogourt</itemName>
+    <itemDescription>Snacks:Yogourt</itemDescription>
+    <itemRating/>
+    <itemPrice>1,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>100</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Snacks</itemAisle>
+    <itemName>Flower Cookies</itemName>
+    <itemDescription>Snacks:Cookies</itemDescription>
+    <itemRating/>
+    <itemPrice>1,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>100</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Snacks</itemAisle>
+    <itemName>Ramen Noodles</itemName>
+    <itemDescription>Snacks:Noodles</itemDescription>
+    <itemRating/>
+    <itemPrice>1,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>100</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Vegetables</itemAisle>
+    <itemName>Tomato</itemName>
+    <itemDescription>Vegetable:Tomato</itemDescription>
+    <itemRating/>
+    <itemPrice>1,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>100</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Vegetables</itemAisle>
+    <itemName>Peas</itemName>
+    <itemDescription>Vegetable:Peas</itemDescription>
+    <itemRating/>
+    <itemPrice>1,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>100</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Vegetables</itemAisle>
+    <itemName>Peppers</itemName>
+    <itemDescription>Vegetable:Peppers</itemDescription>
+    <itemRating/>
+    <itemPrice>1,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>100</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Meat</itemAisle>
+    <itemName>Fish</itemName>
+    <itemDescription>Meat:Fish</itemDescription>
+    <itemRating/>
+    <itemPrice>1,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>100</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Meat</itemAisle>
+    <itemName>Burger</itemName>
+    <itemDescription>Meat:Burger</itemDescription>
+    <itemRating/>
+    <itemPrice>1,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>100</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Meat</itemAisle>
+    <itemName>Kebab</itemName>
+    <itemDescription>Meat:Kebab</itemDescription>
+    <itemRating/>
+    <itemPrice>1,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>100</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Dairy</itemAisle>
+    <itemName>Cheese</itemName>
+    <itemDescription>Dairy:Cheese</itemDescription>
+    <itemRating/>
+    <itemPrice>1,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>100</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Dairy</itemAisle>
+    <itemName>Milk</itemName>
+    <itemDescription>Dairy:Milk</itemDescription>
+    <itemRating/>
+    <itemPrice>1,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>100</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Dairy</itemAisle>
+    <itemName>Eggs</itemName>
+    <itemDescription>Dairy:Eggs</itemDescription>
+    <itemRating/>
+    <itemPrice>1,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>100</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Baked goods</itemAisle>
+    <itemName>Cinnamom rolls</itemName>
+    <itemDescription>Baked goods:cinnamon rolls</itemDescription>
+    <itemRating/>
+    <itemPrice>1,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>100</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Baked goods</itemAisle>
+    <itemName>Macaron</itemName>
+    <itemDescription>Baked goods:Macaron</itemDescription>
+    <itemRating/>
+    <itemPrice>1,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>100</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Baked goods</itemAisle>
+    <itemName>Cake</itemName>
+    <itemDescription>Baked goods:Cake</itemDescription>
+    <itemRating/>
+    <itemPrice>1,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>1234567</itemSerial>
+    <itemIngredients>Coming soon</itemIngredients>
+    <stockQuantity>100</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Fruit</itemAisle>
+    <itemName>Banana</itemName>
+    <itemDescription>Fruit:Banana</itemDescription>
+    <itemRating>4</itemRating>
+    <itemPrice>2,99</itemPrice>
+    <itemUnit/>
+    <itemSerial>123456</itemSerial>
+    <itemIngredients>coming soon</itemIngredients>
+    <stockQuantity>1234</stockQuantity>
+  </item>
+  <item>
+    <itemAisle>Meat</itemAisle>
+    <itemName>Meatos</itemName>
+    <itemDescription>Meat:Big</itemDescription>
+    <itemRating>5</itemRating>
+    <itemPrice>10</itemPrice>
+    <itemUnit/>
+    <itemSerial>300</itemSerial>
+    <itemIngredients>meat</itemIngredients>
+    <stockQuantity>30</stockQuantity>
+  </item>
+</BaseItems>

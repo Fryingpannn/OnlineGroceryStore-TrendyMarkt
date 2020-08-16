@@ -22,17 +22,17 @@
   </nav>
 <div class="sidebar">
     <a href="index.php">Home</a>
-    <li style="list-style-type: none"><a href="p9-user.html">User List</a></li>
-  <a href="p7-productlist.html" style="text-decoration: none;">Product</a>
+    <li style="list-style-type: none"><a href="p9-user.php">User List</a></li>
+  <a href="p7-productlist.php" style="text-decoration: none;">Product</a>
   <ul>
-    <li style="list-style-type: none; "> <a href="p7-productlist.html" style="text-decoration: none;">All Product</a></li>
+    <li style="list-style-type: none; "> <a href="p7-productlist.php" style="text-decoration: none;">All Product</a></li>
     <li style="list-style-type: none;"> <a> Inventory</a></li>
-    <li style="list-style-type: none;"> <a href="p11-orderlist.html"> Orders</a></li>
+    <li style="list-style-type: none;"> <a href="p11-orderlist.php"> Orders</a></li>
  </ul>
 </div>
 <div class="content">
     <h1><i>Product</i></h1>
-            <a style="float: right;" class="btn btn-outline-info" href="p8-productedit.html">Edit</a>
+            <a style="float: right;" class="btn btn-outline-info" href="p8-productedit.php">Edit</a>
             <a style="float: right;" class="btn btn-outline-info" href="#">Delete</a>
             <table  style="width: 100%;border: none 100px; height: 3cm;">
                 <th>Add The product</th>

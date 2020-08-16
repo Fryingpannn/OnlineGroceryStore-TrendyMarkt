@@ -1,4 +1,7 @@
-<?php session_start(); ?>
+<?php
+session_start();
+?>
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -48,64 +51,67 @@ div.content {margin-left:0;}
 }
         </style>
     </head>
-    <body>
+    <body onload="loadXMLDoc()">
         <nav class="site-header shadow-lg sticky-top py-1 border border rounded">
       <div class="container d-flex flex-row justify-content-between">
        <a class="py-2" href="index.php">Home</a>
         <a class="py-2" href="p13-aboutus.php">About us</a>  <!--Back store functions-->
         <a class="py-2" href="p4-cart.php">Cart</a>
-        <a class="py-2" href="p6-signup.php">Sign up</a>
+        <a class="py-2" href="p5-signup.html">Sign up</a>
       </div>
     </nav>
     <div class="sidebar">
     <a href="index.php">Home</a>
-    <li style="list-style-type: none"><a href="p9-user.html">User List</a></li>
-  <a href="P7-productlist.html" style="text-decoration: none;">Product</a>
+    <li style="list-style-type: none"><a href="p9-user.php">User List</a></li>
+  <a href="P7-productlist.php" style="text-decoration: none;">Product</a>
   <ul>
-    <li style="list-style-type: none; "> <a href="P7-productlist.html" style="text-decoration: none;"> All Product</a></li>
+    <li style="list-style-type: none; "> <a href="P7-productlist.php" style="text-decoration: none;"> All Product</a></li>
     <li style="list-style-type: none;"> <a> Inventory</a></li>
-    <li style="list-style-type: none;"> <a href="p11-orderlist.html"> Orders</a></li>
+    <li style="list-style-type: none;"> <a href="p11-orderlist.php"> Orders</a></li>
  </ul>
 </div>
    <div class="content">
-        <span class="a"> <a style="color:gray;"class="orders" href="p11-orderlist.html">&lt; Orders</a></span>
+       <span class="a"> <a style="color:gray;"class="orders" href="p11-orderlist.php">&lt; Orders</a></span>
+      
        <h2><i>Add/Edit order</i></h2>
-   
-        <form method="" onsubmit="validate()";>
-            <p><span> <label for="orderno">Order number</label></span>
-            
-                <span> <input type="number" name="number" id="orderno" contenteditable="true"/></span>
-            </p>
-            <p><span> <label for="date">Date created</label></span>
-                <span><input  type="date" name="date" id="date" contenteditable="true"/></span>
-            </p>
-            <p>
-         <span>
-             <label for="customer"> Customer</label></span>
-                <span><input type="text" name="customer" placeholder="Last name, First name" id="name" contenteditable="true"/>
-                </span>
-            </p>
-            <p>
-           <span>
-               <label for:address>Shipping</label> </span>  
-                <span><textarea id="address" name="shipping" rows="3" cols="40" contenteditable="true"></textarea>  </span>
-            </p>
-        <table>
-        <tr>
-       <td>Item</td>
-            <td>Cost</td>
-            <td>Qty</td>
-            <td>Total</td>
-            </tr> 
-        </table>
-        <p/>
-            <p>
-            <a href="index.php" class="btn btn-outline-info" role="button">Add item(s)</a>
-            <input type="submit" value="save" class="btn btn-outline-info"role="button"
-                   onclick="checkName()";/>
-            </p>
+        <form method="get" id="form" action="orderedit.php" onsubmit="validate()";>
         </form>
         </div>
+        
+    
+        <script>
+
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xmlhttp.open("GET", "Order.xml", true);
+  xmlhttp.send();
+}
+       
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var form="";
+    var n=localStorage.getItem("textvalue");
+var url=document.location.href;
+  var x = xmlDoc.getElementsByTagName("olist");
+  for (i = 0; i <x.length; i++) 
+      {
+          if(x[i].getElementsByTagName("number")[0].childNodes[0].nodeValue==n)
+          {
+              form +=  "<p><span> <label for='orderno'>Order number</label></span> <span> <input type='number' name='number' id='orderno' contenteditable='true' value='"+ x[i].getElementsByTagName("number")[0].childNodes[0].nodeValue+"'/></span> </p><p><span> <label for='datee'>Date created</label></span><span><input  type='date' name='created' id='datee' contenteditable='true' value='"+ x[i].getElementsByTagName("created")[0].childNodes[0].nodeValue+"'/></span> </p>  <p> <span><label for='customer'> Customer</label></span><span><input type='text' name='customer' placeholder='Last name, First name' id='name'contenteditable='true' value='"+ x[i].getElementsByTagName("customer")[0].childNodes[0].nodeValue+"'/></span> </p>  <p> <span><label for:address>Shipping</label> </span>  <span><textarea id='address' name='shipping' rows='3' cols='40' contenteditable='true'>"+x[i].getElementsByTagName("shipping")[0].childNodes[0].nodeValue+"</textarea>  </span></p><p><span> <label for:total>Total</label></span> <span><input type='text' id='total' name='total' value='"+ x[i].getElementsByTagName("total")[0].childNodes[0].nodeValue+"'/></span></p> <p><input type='submit' value='save' class='btn btn-outline-info' role='button' name='sub';/></p>";
+      }
+   
+  }
+      document.getElementById("form").innerHTML = form; 
+}
+ 
+                           
+    </script>
         <footer class="container py-5">
       <div class="row">
         <div class="col-12 col-md"> 

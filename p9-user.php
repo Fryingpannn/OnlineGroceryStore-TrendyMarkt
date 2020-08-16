@@ -23,12 +23,12 @@
     </nav>
       <div class="sidebar">
         <a class="active" href="index.php">Home</a>
-        <li style="list-style-type: none"><a href="p9-user.html">User List</a></li>
-        <a href="p7-productlist.html" style="text-decoration: none;">Product</a>
+        <li style="list-style-type: none"><a href="p9-user.php">User List</a></li>
+        <a href="p7-productlist.php" style="text-decoration: none;">Product</a>
           <ul>
-            <li style="list-style-type: none;"> <a href="p7-productlist.html" style="text-decoration: none;"> All Product</a></li>
+            <li style="list-style-type: none;"> <a href="p7-productlist.php" style="text-decoration: none;"> All Product</a></li>
             <li style="list-style-type: none;"> <a> Inventory</a></li>
-            <li style="list-style-type: none;"> <a href="p11-orderlist.html"> Orders</a></li>
+            <li style="list-style-type: none;"> <a href="p11-orderlist.php"> Orders</a></li>
         </ul>
       </div>          
       <br>
@@ -60,7 +60,7 @@
     ?>
       </table>
             <br>
-            <p style="text-align: center">To edit your user profile :<a href="p10-editprofile.html">&nbsp Please click here !</a></p>
+            <p style="text-align: center">To edit your user profile :<a href="p10-editprofile.php">&nbsp Please click here !</a></p>
               <br>
               <br>
               <br>

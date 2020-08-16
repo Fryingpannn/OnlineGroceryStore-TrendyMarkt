@@ -1,5 +1,5 @@
-<?php session_start(); ?>
-<!doctype html>
+<?php session_start();
+  require 'includes/dbh.inc.php'; ?>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -23,12 +23,12 @@
     </nav>
       <div class="sidebar">
         <a class="active" href="index.php">Home</a>
-        <li style="list-style-type: none"><a href="p9-user.html">User List</a></li>
-        <a href="p7-productlist.html" style="text-decoration: none;">Product</a>
+        <li style="list-style-type: none"><a href="p9-user.php">User List</a></li>
+        <a href="p7-productlist.php" style="text-decoration: none;">Product</a>
   <ul>
-    <li style="list-style-type: none; "> <a href="p7-productlist.html" style="text-decoration: none;"> All Product</a></li>
+    <li style="list-style-type: none; "> <a href="p7-productlist.php" style="text-decoration: none;"> All Product</a></li>
     <li style="list-style-type: none;"> <a> Inventory</a></li>
-    <li style="list-style-type: none;"> <a href="p11-orderlist.html"> Orders</a></li>
+    <li style="list-style-type: none;"> <a href="p11-orderlist.php"> Orders</a></li>
  </ul>
       </div>
  <h1 class="Krusty-text1" style="margin-top: 50px">Edit your profile</h1>
@@ -36,11 +36,13 @@
       <br>
       <br>
 <div class="content">
+<form action="" method="post">
       <div class="container-text">
-      <p style="font-size: 1.5vw;"><strong>Your username: &nbsp; </strong> <input type="text" value="Your current username"></p>
-      <p style="font-size: 1.5vw;"> <strong> Please enter your current password:&nbsp; </strong> <input type="text" value="Password"></p>
-      <p style="font-size: 1.5vw;"><strong>Please enter a new password: &nbsp; </strong> <input type="text" value="Password"></p>
-      <p style="font-size: 1.5vw;"><strong>Please confirm your new password: &nbsp; </strong> <input type="text" value="Password"></p>
+      <p style="font-size: 1.5vw;"><strong>Your ID: &nbsp; </strong> <input type="text" name ="id" placeholder="Please enter your ID"></p>
+
+      <p style="font-size: 1.5vw;"><strong>Your username: &nbsp; </strong> <input type="text" name ="name" placeholder="Your new username"></p>
+      <p style="font-size: 1.5vw;"><strong>Your email: &nbsp; </strong> <input type="email" name ="email" placeholder="Your new email"></p>
+      
       <br>
       <br>
       <p style="font-size: 1.5vw;">To change settings for your profile, please answer the following the security questions</p>
@@ -57,7 +59,7 @@
       <br>
     </div>
   </div>
-      <a href="P10-EditProfile.html"><button style="margin-left: 230px" class="btn btn-info" role="button">Save Changes</button></a>
+      <a href="p10-editprofile.php"><button style="margin-left: 230px" name="update" class="btn btn-info" role="sumbit">Save Changes</button></a></form>
       <footer class="container py-5">
       <div class="row">
         <div class="col-12 col-md"> 
@@ -95,3 +97,42 @@
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   </body>
 </html>
+
+<?php 
+
+$db = mysqli_select_db($conn,'rykppv8n7h82a40v');
+
+
+
+
+if(isset($_POST['update'])){
+
+
+
+$id = $_POST['id'];
+$fname = $_POST['name'];
+$emailUser = $_POST['email'];
+
+  $query ="UPDATE users SET first_nameUsers = '$fname', emailUsers = '$emailUser' WHERE idUsers = '$id'";
+  $query_run = mysqli_query($conn, $query);
+
+
+
+
+  if($query_run){
+
+    echo '<script type= "text/javascript"> alert("Data Updated") </script>';
+
+
+  }
+
+  else
+
+  echo '<script type= "text/javascript"> alert("Data not updated") </script>';
+
+
+}
+
+
+
+?>

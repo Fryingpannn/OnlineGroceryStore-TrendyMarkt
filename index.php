@@ -26,7 +26,7 @@
         ?>
       </div>
     </nav>
-    <!--<div class="btnposition"><a class="btn btn-warning" type="button" role="button" href="p7-productlist.html">Back Store (Markers Only!)</a></div>-->
+    <!--<div class="btnposition"><a class="btn btn-warning" type="button" role="button" href="p7-productlist.php">Back Store (Markers Only!)</a></div>-->
     <!-- Banner/Header -->
     <div class="border rounded banner shadow-lg p-1 text-center text-white">
       <div class="col-md-6 mx-auto my-3">

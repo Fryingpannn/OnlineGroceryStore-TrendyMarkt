@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <a href="p3-pastry1.html"> <!-- Product 1 -->
+      <a href="p3-pastry1.php"> <!-- Product 1 -->
       <div class="pastry1 aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
         <div class="my-3 py-3 border" >
           <h4 class="display-5">The 'New' Boston Cream Cheese Cake</h4>
@@ -42,7 +42,7 @@
         <div style="height: 300px;"></div>
       </div>
       </a>
-      <a href="p3-pastry2.html"> <!-- Product 2-->
+      <a href="p3-pastry2.php"> <!-- Product 2-->
         <div class="pastry2 aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
           <div class="my-3 py-3 border" >
             <h4 class="display-5">Fluffy Banana Pancakes</h4>
@@ -51,7 +51,7 @@
           <div style="height: 300px;"></div>
         </div>
         </a>
-      <a href="p3-pastry3.html"> <!-- Product 3 -->
+      <a href="p3-pastry3.php"> <!-- Product 3 -->
         <div class="pastry3 aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
           <div class="my-3 p-3 border">
             <h2 class="display-5">Triple Chocolate Cupcake</h2>

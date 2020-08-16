@@ -1,4 +1,8 @@
-<?php session_start(); ?>
+
+<?php
+session_start();
+?>
+
 <!doctype html>
 <html lang="en">
     <head>
@@ -54,30 +58,30 @@ div.content {margin-left:0;}
        <a class="py-2" href="index.php">Home</a>
         <a class="py-2" href="p13-aboutus.php">About us</a>  <!--Back store functions-->
         <a class="py-2" href="p4-cart.php">Cart</a>
-        <a class="py-2" href="p6-signup.php">Sign up</a>
+        <a class="py-2" href="p5-signup.html">Sign up</a>
       </div>
     </nav>
     <div class="sidebar">
     <a href="index.php">Home</a>
-    <li style="list-style-type: none"><a href="p9-user.html">User List</a></li>
-  <a href="P7-productlist.html" style="text-decoration: none;">Product</a>
+    <li style="list-style-type: none"><a href="p9-user.php">User List</a></li>
+  <a href="P7-productlist.php" style="text-decoration: none;">Product</a>
   <ul>
-    <li style="list-style-type: none; "> <a href="P7-productlist.html" style="text-decoration: none;"> All Product</a></li>
+    <li style="list-style-type: none; "> <a href="P7-productlist.php" style="text-decoration: none;"> All Product</a></li>
     <li style="list-style-type: none;"> <a> Inventory</a></li>
-    <li style="list-style-type: none;"> <a href="p11-orderlist.html"> Orders</a></li>
+    <li style="list-style-type: none;"> <a href="p11-orderlist.php"> Orders</a></li>
  </ul>
 </div>
    <div class="content">
-        <span class="a"> <a style="color:gray;"class="orders" href="p11-orderlist.html">&lt; Orders</a></span>
+        <span class="a"> <a style="color:gray;"class="orders" href="p11-orderlist.php">&lt; Orders</a></span>
        <h2><i>Add/Edit order</i></h2>
    
-        <form method="" id="myForm" name="fo" onsubmit="validate()";>
+        <form method="get" id="myForm" name="fo" onsubmit="validate()" action="AddOrder.php";>
             <p><span> <label for="orderno">Order number</label></span>
             
                 <span> <input type="number" name="number" id="orderno"/></span>
             </p>
-            <p><span> <label for="date">Date created</label></span>
-                <span><input  type="date" name="time" id="create" 
+            <p><span> <label for="datee">Date created</label></span>
+                <span><input  type="date" name="created" id="datee" 
                /></span>
             </p>
             <p>
@@ -91,19 +95,15 @@ div.content {margin-left:0;}
                <label for:address>Shipping</label> </span>  
                 <span><textarea id="address" name="shipping" rows="3" cols="40" contenteditable="true"></textarea>  </span>
             </p>
-        <table>
-        <tr>
-       <td>Item</td>
-            <td>Cost</td>
-            <td>Qty</td>
-            <td>Total</td>
-            </tr> 
-        </table>
-      
+        <p>
+            <span>
+                <label for:total>Total</label></span>
+            <span><input type="text" name="total"/></span>
+            </p>
             <p>
-            <a href="index.php" class="btn btn-outline-info" role="button">Add item(s)</a>
+           
             <input type="submit" value="save" class="btn btn-outline-info"role="button"
-                   onclick="checkName()";/>
+                  name="submit" onclick="checkName()";/>
             </p>
        </form>
         </div>

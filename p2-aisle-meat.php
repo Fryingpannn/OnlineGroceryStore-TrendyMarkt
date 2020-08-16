@@ -35,7 +35,7 @@
     </div>
     <!-- Row of 3 products -->
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <a href="p3-meat1.html"> <!-- Product 1 -->
+      <a href="p3-meat1.php"> <!-- Product 1 -->
       <div class=" meat1 aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
         <div class="my-3 py-3 border" >
           <h4 class="display-5">The Krusty Patty</h4>
@@ -44,7 +44,7 @@
         <div style="height: 300px;"></div>
       </div>
       </a>
-      <a href="p3-meat2.html">  <!-- Product 2 -->
+      <a href="p3-meat2.php">  <!-- Product 2 -->
       <div class="meat2 aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
         <div class="my-3 py-3 border">
           <h2 class="display-5">Rainbow Kebabs</h2>
@@ -53,7 +53,7 @@
         <div style="height: 303px;"></div>
       </div>
       </a>
-      <a href="p3-meat3.html"> <!-- Product 3 -->
+      <a href="p3-meat3.php"> <!-- Product 3 -->
         <div class="meat3 aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
           <div class="my-3 p-3 border">
             <h2 class="display-5">Fish Tikka</h2>
