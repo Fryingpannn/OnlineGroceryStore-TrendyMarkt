@@ -11,7 +11,7 @@
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
    <link href="main.css" rel="stylesheet" type="text/css">
 </head>
-<body>
+<body onload="loadXMLDoc()">
   <nav class="site-header sticky-top py-1 border rounded">
     <div class="container d-flex justify-content-between">
       <a class="py-2" href="index.php">Home</a> 
@@ -32,35 +32,56 @@
 </div>
 <div class="content">
     <h1><i>Product</i></h1>
-            <a style="float: right;" class="btn btn-outline-info" href="p8-productedit.php">Edit</a>
-            <a style="float: right;" class="btn btn-outline-info" href="#">Delete</a>
             <table  style="width: 100%;border: none 100px; height: 3cm;">
                 <th>Add The product</th>
                 <tr>
                 </tr>
             </table>
             <div class="container-text">
-              <form action=""  style="float: right;">
-                <label for="img" >Select an image</label>
-                <input type="file"id="image" name="image" accept="image" onchange=validateImage()>
+              <form style="float: right;">
+               <!-- <label for="img" >Select an image</label>
+                <input type="file"id="image" name="image" accept="image" onchange=validateImage()>-->
               </form>
                 <h1>The input element</h1>
-            <form action="">
-                    <label for="Name">Product  Name:</label>
-                    <input type="text" id="name" name="name"><br><br>
-                    <label for="inventory">Inventory stock:</label>
-                    <input type="text" id="Inventory" name="inventory"><br><br>
-                    <label for="Price">Price of product:</label>
-                    <input type="text" id="Price" name="Price"><br><br>
-                    <label for="Price">Product description:</label><br></br>
-                    <textarea id="Productdescription" name="description" rows="3"cols="40"></textarea><br><br>
-                    <label for="description">Ingredients:</label><br></br>
-                    <textarea id="Ingredient description" name="Ingredient" rows="3"cols="40"></textarea><br><br>
-                    <button id="save" style="float: right;" class="btn btn-outline-info" role="submit" >Save</button>   
+            <form method="get" id="form" action="productedit.php">
+              
             </form>
             </div>
 </br>
 </div>
+<script>
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xmlhttp.open("GET", "productlist.xml", true);
+  xmlhttp.send();
+}
+       
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var form="";
+    var n=localStorage.getItem("textvalue");
+var url=document.location.href;
+  var x = xmlDoc.getElementsByTagName("item");
+  for (i = 0; i <x.length; i++) 
+      {
+         if(x[i].getElementsByTagName("itemName")[0].childNodes[0].nodeValue==n)
+          {
+        
+              form +=  " <label for='Name'>Product name:</label> <input type='text' name='name' id='name' contenteditable='true' value='"+ x[i].getElementsByTagName("itemName")[0].childNodes[0].nodeValue+"'/><br><br> <label for='inventory'>Inventory stock:</label><input  type='text' name='inventory' id='Inventory' contenteditable='true' value='"+ x[i].getElementsByTagName("stockQuantity")[0].childNodes[0].nodeValue+"'/><br><br><label for='Price'>Price of product: </label><input type='text' name='Price' id='Price'contenteditable='true' value='"+ x[i].getElementsByTagName("itemPrice")[0].childNodes[0].nodeValue+"'/><br><br><label for:Price>Product description</label> <textarea id='Productdescription' name='description' rows='3' cols='40' contenteditable='true'>"+x[i].getElementsByTagName("itemDescription")[0].childNodes[0].nodeValue+"</textarea><br><br><label for:Price>Product description</label> <textarea id='Ingredient description' name='Ingredient' rows='3' cols='40' contenteditable='true'>"+x[i].getElementsByTagName("itemIngredients")[0].childNodes[0].nodeValue+"</textarea><br><br> <input type='submit' value='save' class='btn btn-outline-info' role='button' name='sub';/>";
+      }
+   
+  }
+      document.getElementById("form").innerHTML = form; }
+</script>
+
+    
+ 
     <footer class="container py-5">
         <div class="row">
           <div class="col-12 col-md"> 

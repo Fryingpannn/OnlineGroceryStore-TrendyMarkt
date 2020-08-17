@@ -1,17 +1,12 @@
 <?php
 //setting up database
 
-// //remote connection (jawsDB)
-$servername = "z37udk8g6jiaqcbx.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
-$dBUsername = "bgg6h8p8t8tr9d8x";	
-$dBPassword = "grf6g3l4bbmayisf"; 
-$dbName = "rykppv8n7h82a40v";
-
 //remote connection (jawsDB)
-// $servername = getenv("MYSQL_HOST");
-// $dBUsername = getenv("MYSQL_USER");	
-// $dBPassword = getenv("MYSQL_PASS"); 
-// $dbName = getenv("MYSQL_DB");
+$servername = getenv("MYSQL_HOST");
+$dBUsername = getenv("MYSQL_USER");	
+$dBPassword = getenv("MYSQL_PASS"); 
+$dbName = getenv("MYSQL_DB");
+
 
 //local connection
 // $servername = "localhost:8889";

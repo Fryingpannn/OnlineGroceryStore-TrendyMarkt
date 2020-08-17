@@ -51,7 +51,11 @@ function myFunction(xml) {
    
 }
 
-
+  function passvalues() {
+   var data=document.getElementById("filter").value;
+        localStorage.setItem("textvalue",data);
+          return false;
+}
 function del1(xml){
   var count=0;
         var xmlDoc = xml.responseXML;
@@ -100,10 +104,12 @@ function del1(xml){
 
 
     
-    <h1><i>Product</i></h1>
-    <input type="text" name="search" placeholder="search" style="float: left;"></input>
+    <h1><i>Product</i><span style="font-size: 14px;" class="text-info"> &nbsp (You must enter a product name to edit it)</span></h1>
             <a style="float: right;" class="btn btn-outline-info" href="p8-productadd.php">Add Product</a>
-<form name="product_list" action="" method="GET" id=listform>
+   
+<form name="product_list" action="" method="get" id=listform>
+     <input type="text" id="filter" name="search" placeholder="ENTER PRODUCT NAME HERE" style="float: left;">
+      <a href="p8-productedit.php" class="btn btn-outline-info" role="button" id="edit" formaction="p8-productedit.php" onclick="passvalues();"  style="float: right;" >edit</a>
     <table style="width: 100%; border: none;" id="datatable">
 
 

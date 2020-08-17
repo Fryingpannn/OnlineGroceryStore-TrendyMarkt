@@ -51,7 +51,8 @@
       if($result-> num_rows > 0){ //if more than 0 rows
         while($row = $result-> fetch_assoc()){ //display each row
           if(!($row['emailUsers'] == 'admin@trendymarkt.com'))
-            echo "<tr><td>". $row['idUsers']. "</td><td>". $row['first_nameUsers']. "</td><td>". $row['emailUsers']. "</td></tr>";
+          
+          echo "<tr><td>". $row['idUsers']. "</td><td>". $row['first_nameUsers']. "</td><td>". $row['emailUsers']. "</td></tr>";
         }
       }
       else{ //if no users
@@ -61,7 +62,11 @@
     ?>
       </table>
             <br>
-            <p style="text-align: center">To edit your user profile :<a href="p10-editprofile.php">&nbsp Please click here !</a></p>
+            <p style="text-align: center">To edit a user profile :<a href="p10-editprofile.php">&nbsp Please click here !</a></p>
+            <p style="text-align: center">To add a user profile :<a href="p10-addprofile.php">&nbsp Please click here !</a></p>
+            <p style="text-align: center">To delete a user profile :<a href="p10-endprofile.php">&nbsp Please click here !</a></p>
+
+
               <br>
               <br>
               <br>

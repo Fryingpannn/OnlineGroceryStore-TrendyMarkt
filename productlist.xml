@@ -1,223 +1,345 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<BaseItems>
+<productlist>
   <item>
-    <itemAisle>Fruit</itemAisle>
-    <itemName>Mango</itemName>
-    <itemDescription>fruit:Mango</itemDescription>
-    <itemRating/>
-    <itemPrice>2,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>135</stockQuantity>
+    <itemAisle>Default Aisle test</itemAisle>
+    <itemName>Default Name</itemName>
+    <itemDescription>Default Description</itemDescription>
+    <itemRating>Default Rating</itemRating>
+    <itemPrice>0.0</itemPrice>
+    <itemUnit>lb</itemUnit>
+    <itemSerial>00000000</itemSerial>
+    <itemIngredients>Default Ingredients</itemIngredients>
+    <stockQuantity>Default Stock Quanitty</stockQuantity>
+    <itemPicPath>Default Picture Path</itemPicPath>
   </item>
   <item>
     <itemAisle>Fruit</itemAisle>
-    <itemName>Oranges</itemName>
-    <itemDescription>Fruit:Oranges</itemDescription>
-    <itemRating/>
-    <itemPrice>1,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>100</stockQuantity>
+    <itemName>Ataulfo Mango</itemName>
+    <itemDescription>Mango Ataulfo, also known as Champagne Mango due to their golden yellow outer skin, are produced in Mexico. They have a delicious sweet taste with a hint of lemon.</itemDescription>
+    <itemRating>4</itemRating>
+    <itemPrice>1.99</itemPrice>
+    <itemUnit>ea.</itemUnit>
+    <itemSerial>20000001</itemSerial>
+    <itemIngredients>hello</itemIngredients>
+    <stockQuantity>20</stockQuantity>
+    <itemPicPath>Pictures/Mango-2.jpg</itemPicPath>
   </item>
   <item>
     <itemAisle>Fruit</itemAisle>
-    <itemName>Peache</itemName>
-    <itemDescription>Fruit:Peach</itemDescription>
-    <itemRating/>
-    <itemPrice>1,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>100</stockQuantity>
+    <itemName>Red Apple</itemName>
+    <itemDescription>These Red apples are incredibly crispy. Beneath its deep red skin lies creamy white flesh that is juicy and sweet. You can snack on it, bake with it, or make juice with it.</itemDescription>
+    <itemRating>3.5</itemRating>
+    <itemPrice>2.00</itemPrice>
+    <itemUnit>lb</itemUnit>
+    <itemSerial>20000002</itemSerial>
+    <itemIngredients>Empty</itemIngredients>
+    <stockQuantity>30</stockQuantity>
+    <itemPicPath>Pictures/appl3.jpg</itemPicPath>
   </item>
   <item>
-    <itemAisle>Snacks</itemAisle>
+    <itemAisle>Fruit</itemAisle>
+    <itemName>Peach</itemName>
+    <itemDescription>Peaches with white flesh typically are very sweet with little acidity, with a sweet floral taste. Check out our peach relish recipe for a cooking inspiration using these wonderful fruits.</itemDescription>
+    <itemRating>4.5</itemRating>
+    <itemPrice>1.40</itemPrice>
+    <itemUnit>ea.</itemUnit>
+    <itemSerial>20000003</itemSerial>
+    <itemIngredients>epty</itemIngredients>
+    <stockQuantity>15</stockQuantity>
+    <itemPicPath>Pictures/peach2.jpg</itemPicPath>
+  </item>
+  <item>
+    <itemAisle>Dairy</itemAisle>
+    <itemName>Large Eggs</itemName>
+    <itemDescription>You can't skip our eggs if you are aiming for a full-balanced, delicious, and nutritious breakfast.
+    </itemDescription>
+    <itemRating>4.5</itemRating>
+    <itemPrice>5.99</itemPrice>
+    <itemUnit>12 ea.</itemUnit>
+    <itemSerial>10000001</itemSerial>
+    <itemIngredients>epty</itemIngredients>
+    <stockQuantity>15</stockQuantity>
+    <itemPicPath>Pictures/eggs.jpg</itemPicPath>
+  </item>
+  <item>
+    <itemAisle>Dairy</itemAisle>
+    <itemName>Full Fat Milk</itemName>
+    <itemDescription>Our full fat milk with added vitamins A and D, is fresh, pure, and tastes great.
+    </itemDescription>
+    <itemRating>4.5</itemRating>
+    <itemPrice>2.99</itemPrice>
+    <itemUnit>1 L</itemUnit>
+    <itemSerial>10000002</itemSerial>
+    <itemIngredients>epty</itemIngredients>
+    <stockQuantity>15</stockQuantity>
+    <itemPicPath>Pictures/milk.jpg</itemPicPath>
+  </item>
+  <item>
+    <itemAisle>Dairy</itemAisle>
+    <itemName>Mild Cheddar Cheese</itemName>
+    <itemDescription>Our cheese will add a great flavour to all your meals, breakfast through dinner.
+    </itemDescription>
+    <itemRating>4.5</itemRating>
+    <itemPrice>6.99</itemPrice>
+    <itemUnit>lb</itemUnit>
+    <itemSerial>10000003</itemSerial>
+    <itemIngredients>epty</itemIngredients>
+    <stockQuantity>15</stockQuantity>
+    <itemPicPath>Pictures/cheese.jpg</itemPicPath>
+  </item>
+  <item>
+    <itemAisle>Meat</itemAisle>
+    <itemName>Krusty Patty</itemName>
+    <itemDescription>Our customers go-to food. By taking our authentic beef patty and adding a variety of fresh ingredients, this burger will always leave you wanting more.
+    </itemDescription>
+    <itemRating>4.5</itemRating>
+    <itemPrice>5.99</itemPrice>
+    <itemUnit>ea.</itemUnit>
+    <itemSerial>30000001</itemSerial>
+    <itemIngredients>
+      Sesame bread
+      100% authentic Cow-Beef Patty
+      Iceberg Lettuce
+      Tomatoes
+      Banana Peppers
+      Red Onions
+      Sliced Pickles
+      Choice and/or Combination of : Relish, Ketchup, Mayonnaise, Mustard
+    </itemIngredients>
+    <stockQuantity>15</stockQuantity>
+    <itemPicPath>Pictures/burger.jpg</itemPicPath>
+  </item>
+  <item>
+    <itemAisle>Meat</itemAisle>
+    <itemName>Rainbow Kebabs</itemName>
+    <itemDescription>A traditional Meditaranean delicacy with a modern twist. These Kebabs are not seasoned with the perfect amount of spices. It is also dipped in a mixture of vinegar and BBQ sauce to create a perfect blend of sweet and sour.
+    </itemDescription>
+    <itemRating>4.5</itemRating>
+    <itemPrice>8.99</itemPrice>
+    <itemUnit> Plate of 6 Kebabs</itemUnit>
+    <itemSerial>30000002</itemSerial>
+    <itemIngredients>
+      Well-seasoned steak cut into 4 pieces
+      Bell Peppers
+      Onions
+      BBQ sauce
+      Vinegar
+    </itemIngredients>
+    <stockQuantity>15</stockQuantity>
+    <itemPicPath>Pictures/kebabs.jpg</itemPicPath>
+  </item>
+  <item>
+    <itemAisle>Meat</itemAisle>
+    <itemName>Fish Tikka</itemName>
+    <itemDescription>A mix of taking the best of Indian and Western foods. The fish is wrapped around in cheese and then in bread crumb to create perfect small bites of crunchy goodness. It is served with a bowl of Chicken Korma sauce to enhance the spicyness.
+    </itemDescription>
+    <itemRating>4.5</itemRating>
+    <itemPrice>7.99</itemPrice>
+    <itemUnit>  Plate of 6 Tikkas</itemUnit>
+    <itemSerial>30000003</itemSerial>
+    <itemIngredients>
+      Tilapia Fish
+      Shredded mozarella cheese
+      Bread Crumbs
+      Egg
+      Parsley
+      Served with traditional Chicken Korma sauce
+    </itemIngredients>
+    <stockQuantity>15</stockQuantity>
+    <itemPicPath>Pictures/Fish.jpg</itemPicPath>
+  </item>
+  <item>
+    <itemAisle>Meat</itemAisle>
+    <itemName>Fish Tikka</itemName>
+    <itemDescription>A mix of taking the best of Indian and Western foods. The fish is wrapped around in cheese and then in bread crumb to create perfect small bites of crunchy goodness. It is served with a bowl of Chicken Korma sauce to enhance the spicyness.
+    </itemDescription>
+    <itemRating>4.5</itemRating>
+    <itemPrice>7.99</itemPrice>
+    <itemUnit>  Plate of 6 Tikkas</itemUnit>
+    <itemSerial>30000003</itemSerial>
+    <itemIngredients>
+      Tilapia Fish
+      Shredded mozarella cheese
+      Bread Crumbs
+      Egg
+      Parsley
+      Served with traditional Chicken Korma sauce
+    </itemIngredients>
+    <stockQuantity>15</stockQuantity>
+    <itemPicPath>Pictures/Fish.jpg</itemPicPath>
+  </item>
+  <item>
+    <itemAisle>Pastry</itemAisle>
+    <itemName>Boston Cream Cheese Cake</itemName>
+    <itemDescription>
+      With the hint of lemon that is added, you'll taste the difference. It adds a lighter and brighter taste.
+    </itemDescription>
+    <itemRating>4.5</itemRating>
+    <itemPrice>6.99</itemPrice>
+    <itemUnit>ea.</itemUnit>
+    <itemSerial>40000001</itemSerial>
+    <itemIngredients>
+      Cream cheese
+      Eggs
+      Sour Cream
+      Lemon
+      Graham Cracker
+    </itemIngredients>
+    <stockQuantity>15</stockQuantity>
+    <itemPicPath>Pictures/pastry3.jpeg</itemPicPath>
+  </item>
+  <item>
+    <itemAisle>Pastry</itemAisle>
+    <itemName>Fluffy Banana Pancakes</itemName>
+    <itemDescription>
+      The added banana makes all the difference. These pancakes are 'melt-in-your-mouth' good!
+    </itemDescription>
+    <itemRating>4.5</itemRating>
+    <itemPrice>5.99</itemPrice>
+    <itemUnit>ea.</itemUnit>
+    <itemSerial>40000002</itemSerial>
+    <itemIngredients>
+      Bananas
+      Oat Flour
+      Eggs
+      Cinnamon
+    </itemIngredients>
+    <stockQuantity>15</stockQuantity>
+    <itemPicPath>Pictures/pastry1.jpeg</itemPicPath>
+  </item>
+  <item>
+    <itemAisle>Pastry</itemAisle>
+    <itemName>Triple Chocolate Cupcakes</itemName>
+    <itemDescription>
+      With three types of chocolate, this cupcake is sure to please all! You're welcome!
+    </itemDescription>
+    <itemRating>4.5</itemRating>
+    <itemPrice>3.99</itemPrice>
+    <itemUnit>ea.</itemUnit>
+    <itemSerial>40000003</itemSerial>
+    <itemIngredients>
+      Chocolate
+      Eggs
+      Flour
+      Vanilla Bean
+    </itemIngredients>
+    <stockQuantity>15</stockQuantity>
+    <itemPicPath>Pictures/pastry4.jpg</itemPicPath>
+  </item>
+  <item>
+    <itemAisle>Snack</itemAisle>
     <itemName>Brown Sugar Yogourt</itemName>
-    <itemDescription>Snacks:Yogourt</itemDescription>
-    <itemRating/>
-    <itemPrice>1,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>100</stockQuantity>
+    <itemDescription>
+      This delicacy instills the careful mix of brown sugar and yogourt. Its rich nutriments will revitalize your spirit and set you ready for your day.
+    </itemDescription>
+    <itemRating>4.5</itemRating>
+    <itemPrice>9.99</itemPrice>
+    <itemUnit>ea.</itemUnit>
+    <itemSerial>50000001</itemSerial>
+    <itemIngredients>
+      Milk
+      Brown Sugar
+      Chocolate
+    </itemIngredients>
+    <stockQuantity>15</stockQuantity>
+    <itemPicPath>Pictures/snacks3.jpeg</itemPicPath>
   </item>
   <item>
-    <itemAisle>Snacks</itemAisle>
-    <itemName>Flower Cookies</itemName>
-    <itemDescription>Snacks:Cookies</itemDescription>
-    <itemRating/>
-    <itemPrice>1,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>100</stockQuantity>
-  </item>
-  <item>
-    <itemAisle>Snacks</itemAisle>
+    <itemAisle>Snack</itemAisle>
     <itemName>Ramen Noodles</itemName>
-    <itemDescription>Snacks:Noodles</itemDescription>
-    <itemRating/>
-    <itemPrice>1,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>100</stockQuantity>
+    <itemDescription>
+      Month after month, this product remains a favourite among people of all ages; the classic instant ramen noodles. Mix it up with an egg for an even richer taste.
+    </itemDescription>
+    <itemRating>4.5</itemRating>
+    <itemPrice>0.99</itemPrice>
+    <itemUnit>ea.</itemUnit>
+    <itemSerial>50000002</itemSerial>
+    <itemIngredients>
+      Wheat flour
+      Pepper spice
+      Beef
+      Egg
+      Mushroom
+    </itemIngredients>
+    <stockQuantity>15</stockQuantity>
+    <itemPicPath>Pictures/snacks7.jpg</itemPicPath>
   </item>
   <item>
-    <itemAisle>Vegetables</itemAisle>
-    <itemName>Tomato</itemName>
-    <itemDescription>Vegetable:Tomato</itemDescription>
-    <itemRating/>
-    <itemPrice>1,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>100</stockQuantity>
+    <itemAisle>Snack</itemAisle>
+    <itemName>Flower Cookies</itemName>
+    <itemDescription>
+      Almond mixed with chocolate chips. They say that whoever eats these cookies will smell like flowers.
+    </itemDescription>
+    <itemRating>4.5</itemRating>
+    <itemPrice>6.99</itemPrice>
+    <itemUnit>ea.</itemUnit>
+    <itemSerial>50000003</itemSerial>
+    <itemIngredients>
+      Dough
+      Sugar
+      Chocolate
+    </itemIngredients>
+    <stockQuantity>15</stockQuantity>
+    <itemPicPath>Pictures/snacks4.jpeg</itemPicPath>
   </item>
   <item>
     <itemAisle>Vegetables</itemAisle>
     <itemName>Peas</itemName>
-    <itemDescription>Vegetable:Peas</itemDescription>
-    <itemRating/>
-    <itemPrice>1,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>100</stockQuantity>
+    <itemDescription>Freshly grown peas. How lucious lies the pea within the pod.
+    </itemDescription>
+    <itemRating>4.5</itemRating>
+    <itemPrice>1.5</itemPrice>
+    <itemUnit>lb</itemUnit>
+    <itemSerial>60000001</itemSerial>
+    <itemIngredients>green peas</itemIngredients>
+    <stockQuantity>15</stockQuantity>
+    <itemPicPath>Pictures/peas.jpg</itemPicPath>
+  </item>
+  <item>
+    <itemAisle>Vegetables</itemAisle>
+    <itemName>Tomatoes</itemName>
+    <itemDescription>Freshly grown Tomato. You need an entire life just to know about tomatoes.
+    </itemDescription>
+    <itemRating>4.5</itemRating>
+    <itemPrice>2.4</itemPrice>
+    <itemUnit>lb</itemUnit>
+    <itemSerial>60000002</itemSerial>
+    <itemIngredients>red tomatoes</itemIngredients>
+    <stockQuantity>15</stockQuantity>
+    <itemPicPath>Pictures/tomato.jpg</itemPicPath>
   </item>
   <item>
     <itemAisle>Vegetables</itemAisle>
     <itemName>Peppers</itemName>
-    <itemDescription>Vegetable:Peppers</itemDescription>
-    <itemRating/>
-    <itemPrice>1,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>100</stockQuantity>
+    <itemDescription>Freshly grown peppers</itemDescription>
+    <itemRating>4.5</itemRating>
+    <itemPrice>2.4</itemPrice>
+    <itemUnit>lb</itemUnit>
+    <itemSerial>60000003</itemSerial>
+    <itemIngredients>Just some Peppers</itemIngredients>
+    <stockQuantity>15</stockQuantity>
+    <itemPicPath>Pictures/peppers.jpg</itemPicPath>
   </item>
   <item>
-    <itemAisle>Meat</itemAisle>
-    <itemName>Fish</itemName>
-    <itemDescription>Meat:Fish</itemDescription>
-    <itemRating/>
-    <itemPrice>1,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>100</stockQuantity>
-  </item>
-  <item>
-    <itemAisle>Meat</itemAisle>
-    <itemName>Burger</itemName>
-    <itemDescription>Meat:Burger</itemDescription>
-    <itemRating/>
-    <itemPrice>1,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>100</stockQuantity>
-  </item>
-  <item>
-    <itemAisle>Meat</itemAisle>
-    <itemName>Kebab</itemName>
-    <itemDescription>Meat:Kebab</itemDescription>
-    <itemRating/>
-    <itemPrice>1,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>100</stockQuantity>
-  </item>
-  <item>
-    <itemAisle>Dairy</itemAisle>
-    <itemName>Cheese</itemName>
-    <itemDescription>Dairy:Cheese</itemDescription>
-    <itemRating/>
-    <itemPrice>1,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>100</stockQuantity>
-  </item>
-  <item>
-    <itemAisle>Dairy</itemAisle>
-    <itemName>Milk</itemName>
-    <itemDescription>Dairy:Milk</itemDescription>
-    <itemRating/>
-    <itemPrice>1,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>100</stockQuantity>
-  </item>
-  <item>
-    <itemAisle>Dairy</itemAisle>
-    <itemName>Eggs</itemName>
-    <itemDescription>Dairy:Eggs</itemDescription>
-    <itemRating/>
-    <itemPrice>1,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>100</stockQuantity>
-  </item>
-  <item>
-    <itemAisle>Baked goods</itemAisle>
-    <itemName>Cinnamom rolls</itemName>
-    <itemDescription>Baked goods:cinnamon rolls</itemDescription>
-    <itemRating/>
-    <itemPrice>1,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>100</stockQuantity>
-  </item>
-  <item>
-    <itemAisle>Baked goods</itemAisle>
-    <itemName>Macaron</itemName>
-    <itemDescription>Baked goods:Macaron</itemDescription>
-    <itemRating/>
-    <itemPrice>1,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>100</stockQuantity>
-  </item>
-  <item>
-    <itemAisle>Baked goods</itemAisle>
-    <itemName>Cake</itemName>
-    <itemDescription>Baked goods:Cake</itemDescription>
-    <itemRating/>
-    <itemPrice>1,99</itemPrice>
-    <itemUnit/>
-    <itemSerial>1234567</itemSerial>
-    <itemIngredients>Coming soon</itemIngredients>
-    <stockQuantity>100</stockQuantity>
-  </item>
-  <item>
-    <itemAisle>Fruit</itemAisle>
-    <itemName>Banana</itemName>
-    <itemDescription>Fruit:Banana</itemDescription>
-    <itemRating>4</itemRating>
+    <itemAisle>Vegetables</itemAisle>
+    <itemName>Cabbage</itemName>
+    <itemDescription>Vegetables:Cabbage</itemDescription>
+    <itemRating>5/5</itemRating>
     <itemPrice>2,99</itemPrice>
     <itemUnit/>
-    <itemSerial>123456</itemSerial>
-    <itemIngredients>coming soon</itemIngredients>
-    <stockQuantity>1234</stockQuantity>
+    <itemSerial>12343435</itemSerial>
+    <itemIngredients>This is just cabbage</itemIngredients>
+    <stockQuantity>15</stockQuantity>
   </item>
   <item>
-    <itemAisle>Meat</itemAisle>
-    <itemName>Meatos</itemName>
-    <itemDescription>Meat:Big</itemDescription>
+    <itemAisle/>
+    <itemName>Test</itemName>
+    <itemDescription>Snack:test</itemDescription>
     <itemRating>5</itemRating>
-    <itemPrice>10</itemPrice>
+    <itemPrice>2</itemPrice>
     <itemUnit/>
-    <itemSerial>300</itemSerial>
-    <itemIngredients>meat</itemIngredients>
-    <stockQuantity>30</stockQuantity>
+    <itemSerial>2</itemSerial>
+    <itemIngredients>3</itemIngredients>
+    <stockQuantity>2</stockQuantity>
   </item>
-</BaseItems>
+</productlist>

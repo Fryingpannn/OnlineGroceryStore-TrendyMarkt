@@ -31,35 +31,33 @@
     <li style="list-style-type: none;"> <a href="p11-orderlist.php"> Orders</a></li>
  </ul>
       </div>
- <h1 class="Krusty-text1" style="margin-top: 50px">Edit your profile</h1>
+ <h1 class="Krusty-text1" style="margin-top: 50px">Add a user profile</h1>
       <br>
       <br>
       <br>
 <div class="content">
 <form action="" method="post">
       <div class="container-text">
-      <p style="font-size: 1.5vw;"><strong>Your ID: &nbsp; </strong> <input type="text" name ="id" placeholder="Please enter your ID"></p>
-
       <p style="font-size: 1.5vw;"><strong>Your name: &nbsp; </strong> <input type="text" name ="name" placeholder="Your name"></p>
       <p style="font-size: 1.5vw;"><strong>Your email: &nbsp; </strong> <input type="email" name ="email" placeholder="Your email"></p>
-      
-      <br>
-      <br>
-      <p style="font-size: 1.5vw;">To change settings for your profile, please put answers for the following the security questions</p>
-      <br>
-      <br>
-      <p style="font-size: 1.5vw;"><strong>Question: What is your mother's maiden name?</strong></p>
-      <p style="font-size: 1.5vw;"><strong>Answer: &nbsp;</strong> <input type ="text" placeholder="Answer"></p>
-      <br>
-       <p style="font-size: 1.5vw;"><strong>Question: What was the city you were born in?</strong></p>
-       <p style="font-size: 1.5vw;"><strong>Answer: &nbsp;</strong> <input type ="text" placeholder="Answer"></p>
-      <br>
-      <p style="font-size: 1.5vw;"><strong>Question: What was a nickname you had as a child?</strong></p>
-      <p style="font-size: 1.5vw;"><strong>Answer: &nbsp;</strong> <input type ="text" placeholder="Answer"></p>
-      <br>
-    </div>
+      <p style="font-size: 1.5vw;"><strong>Your password: &nbsp; </strong> <input type="password" name ="pass" placeholder="Your password" id="myInput"></p>
+      <input type="checkbox" onclick="myFunction()">Show Password
+
   </div>
-      <a href="p10-editprofile.php"><button style="margin-left: 230px" name="update" class="btn btn-info" role="sumbit">Save Changes</button></a></form>
+
+ <script>
+   function myFunction() {
+    var x = document.getElementById("myInput");
+    if (x.type === "password") {
+      x.type = "text";
+    } else {
+      x.type = "password";
+     }
+  }
+</script>
+
+
+      <a href="p10-addprofile.php"><button style="margin-left: 230px" name="update" class="btn btn-info" role="sumbit">Add User</button></a></form>
       <footer class="container py-5">
       <div class="row">
         <div class="col-12 col-md"> 
@@ -109,11 +107,16 @@ if(isset($_POST['update'])){
 
 
 
-$id = $_POST['id'];
+
 $fname = $_POST['name'];
 $emailUser = $_POST['email'];
+$password = $_POST['pass'];
 
-  $query ="UPDATE users SET first_nameUsers = '$fname', emailUsers = '$emailUser' WHERE idUsers = '$id'";
+$hash = password_hash($password, PASSWORD_DEFAULT);
+
+
+  $query ="INSERT INTO users (first_nameUsers, emailUsers, pwdUsers) 
+  VALUES('$fname','$emailUser','$hash')";
   $query_run = mysqli_query($conn, $query);
 
 

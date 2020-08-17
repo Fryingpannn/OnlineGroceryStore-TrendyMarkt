@@ -1,5 +1,4 @@
 <?php
- session_start();
 
     if(empty($_SESSION['name'])){
         $_SESSION['name'] = array();
@@ -16,7 +15,7 @@
     array_push($_SESSION['price'], $details[1]);
     array_push($_SESSION['pic'], $details[2]);
 
-   //header("Location: ../trendymarkt/p4-cartcopy.php");
+   header("Location: ../p4-cartcopy.php");
 ?>
 <!--
 function writeCart(){
