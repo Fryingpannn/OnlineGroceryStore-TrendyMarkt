@@ -1,3 +1,3 @@
 <?xml version="1.0"?>
 <Olist>
-<olist><number>11</number><created>2020</created><customer>Adding/Deleting/Editing will take a few seconds because XML is slow, Test</customer><shipping>Detroit</shipping><total>10</total></olist><olist><number>1</number><created/><customer>test</customer><shipping>montreal</shipping><total>10</total></olist><olist><number>1</number><created>2020</created><customer>pan, matt</customer><shipping>montreal</shipping><total>100</total></olist></Olist>
+<olist><number>10</number><created>2020</created><customer>Adding/Deleting/Editing will take a few seconds because XML is slow, Test</customer><shipping>Montreal</shipping><total>1</total></olist></Olist>

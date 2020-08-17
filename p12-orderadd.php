@@ -55,14 +55,14 @@ div.content {margin-left:0;}
     <body>
         <nav class="site-header shadow-lg sticky-top py-1 border border rounded">
       <div class="container d-flex flex-row justify-content-between">
-       <a class="py-2" href="index.php">Home</a>
-        <a class="py-2" href="p13-aboutus.php">About us</a>  <!--Back store functions-->
-        <a class="py-2" href="p4-cart.php">Cart</a>
+       <a class="py-2" href="index.html">Home</a>
+        <a class="py-2" href="p13-aboutus.html">About us</a>  <!--Back store functions-->
+        <a class="py-2" href="p4-cart.html">Cart</a>
         <a class="py-2" href="p5-signup.html">Sign up</a>
       </div>
     </nav>
     <div class="sidebar">
-    <a href="index.php">Home</a>
+    <a href="index.html">Home</a>
     <li style="list-style-type: none"><a href="p9-user.php">User List</a></li>
   <a href="P7-productlist.php" style="text-decoration: none;">Product</a>
   <ul>
@@ -81,7 +81,7 @@ div.content {margin-left:0;}
                 <span> <input type="number" name="number" id="orderno"/></span>
             </p>
             <p><span> <label for="datee">Date created</label></span>
-                <span><input  type="date" name="created" id="datee" 
+                <span><input  type="text" name="created" id="datee" 
                /></span>
             </p>
             <p>
