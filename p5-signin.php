@@ -28,7 +28,7 @@
                     <p id="moreinfo" class="collapse text-wrap lead text-warning font-weight-bold" style="font-size: 14px;">
                 </br>Login as administrator to access backstore.</br></br>
                     u: admin@trendymarkt.com</br>
-                    p: *****
+                    p: *********
                     </p>
           </h1>
           <?php
