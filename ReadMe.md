@@ -1,6 +1,6 @@
 # Trendy Markt
 ## Website link: https://trendymarkt.herokuapp.com/
-#### Trendy Markt is a fully online and modern grocery store concept. This website was inspired by the recent social distancing circumstances and the move to online platforms.<br> It was made during my SOEN287 course project as a team of 6 people.
+#### Trendy Markt is a fully online and modern grocery store concept. This website was inspired by the recent social distancing circumstances and the move to online platforms. It was made during my SOEN287 course project as a team of 6 people.
 
 #### Tech used: HTML/CSS/Boostrap/JavaScript/PHP/MySQL
 
