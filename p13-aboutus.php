@@ -94,7 +94,7 @@ html {box-sizing: border-box;}
         <p>We are a team of computer science and software engineering students at Concordia. Having a passion for technology and good food, we have decided to combine our interests into this terrific startup; Trendy Markt.</p>
         <p>(Note: we don't have our pictures, so have this cat instead. It accurately depicts our process of building this website.)</p>
         <p>ceoteam@trendymarkt.com</p>
-        <p class="col-md-11 text-center" ><button type="button" class="btn btn-outline-warning"><a href="mailto:ceoteam@trendymarkt.com" class="text-warning">Contact</a> </button></p>
+        <p class="col-md-11 text-center" ><button type="button" class="btn btn-outline-warning"><a href="mailto:matthewdukepan@gmail.com" class="text-warning">Contact</a> </button></p>
         </div>
     </div>
   </div>
@@ -107,7 +107,7 @@ html {box-sizing: border-box;}
         <p>A physical place to cultivate our ideas<br> </p>
        <br>
         <p>As we are an online delivery store, our on-site store isn't open yet, but it's under construction and almost done! Feel free to pay us a visit, you may end up getting free food! :)<br> </p>
-        <p>contact@trendymarkt.com</p>
+        <p>support@trendymarkt.com</p>
         <p class="col-md-11 text-center"><button type="button" class="btn btn-outline-warning">Get Directions</button></p>
         </div>
     </div>
