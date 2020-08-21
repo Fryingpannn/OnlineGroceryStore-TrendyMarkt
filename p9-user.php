@@ -65,8 +65,6 @@
             <p style="text-align: center">To edit a user profile :<a href="p10-editprofile.php">&nbsp Please click here !</a></p>
             <p style="text-align: center">To add a user profile :<a href="p10-addprofile.php">&nbsp Please click here !</a></p>
             <p style="text-align: center">To delete a user profile :<a href="p10-endprofile.php">&nbsp Please click here !</a></p>
-
-
               <br>
               <br>
               <br>

@@ -39,11 +39,7 @@
 <form action="" method="post">
       <div class="container-text">
       <p style="font-size: 1.5vw;"><strong>Enter the ID of the user you wish to delete: &nbsp; </strong> <input type="text" name ="id" placeholder="Your ID"></p>
-      
-  </div>
-
-
-
+      </div>
       <a href="p10-endprofile.php"><button style="margin-left: 230px" name="update" class="btn btn-info" role="sumbit">Delete User</button></a></form>
       <footer class="container py-5">
       <div class="row">
@@ -83,44 +79,24 @@
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   </body>
 </html>
-
 <?php 
-
-$db = mysqli_select_db($conn,'rykppv8n7h82a40v');
-
-
-
+$db = mysqli_select_db($conn,'getenv("MYSQL_DB")');
 
 if(isset($_POST['update'])){
 
+  $id = $_POST['id'];
 
+  if($id != 18){
+    $query ="DELETE FROM users WHERE idUsers ='$id'";
+    $query_run = mysqli_query($conn, $query);
 
-
-$id = $_POST['id'];
-
-
-
-
-  $query ="DELETE FROM users WHERE idUsers ='$id'";
-  $query_run = mysqli_query($conn, $query);
-
-
-
-
-  if($query_run){
-
-    echo '<script type= "text/javascript"> alert("Data Updated") </script>';
-
-
+    if($query_run){
+      echo '<script type= "text/javascript"> alert("Data Updated") </script>';
+    }
+    else
+      echo '<script type= "text/javascript"> alert("Data not updated") </script>';
   }
-
   else
-
-  echo '<script type= "text/javascript"> alert("Data not updated") </script>';
-
-
+    echo '<script type= "text/javascript"> alert("Nice try hacker, you cannot delete admin!") </script>';
 }
-
-
-
 ?>

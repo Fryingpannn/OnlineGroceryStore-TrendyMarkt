@@ -99,7 +99,7 @@
 
 <?php 
 
-$db = mysqli_select_db($conn,'rykppv8n7h82a40v');
+$db = mysqli_select_db($conn,'getenv("MYSQL_DB")');
 
 
 
