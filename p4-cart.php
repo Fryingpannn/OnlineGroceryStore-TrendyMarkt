@@ -77,58 +77,52 @@
                     </div>
 
                     <div class="row p-2 " style="justify-content: center">
-                        <input type="submit" class="btn btn-outline-info"  value="Check Out" name="checkout"  href="p4-cart.php">
+                        <a class="btn btn-outline-info"  value="Check Out" name="checkout" href="index.php" onclick="alert('Successful Purchase. Thanks for shopping at Trendy Markt!');">Check Out</a>
                     </div>
 
-                    <div class="row p-2" style="justify-content: center"><a class="btn btn-outline-info "  href="p4-cart.php">Continue Shopping</a></div>
+                    <div class="row p-2" style="justify-content: center"><a class="btn btn-outline-info "  href="index.php">Continue Shopping</a></div>
                 </div>
             </div>
     </div>
 </div>
 </form>
-
 <script type="text/javascript" src="CartScript.js">
 //txt = xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue;
 </script>
-<?php
-addCartPage();
-?>
-
-
-<footer class="container py-5">
-    <div class="row">
+<!--<?phpaddCartPage();?>-->
+    <footer class="container py-5">
+      <div class="row">
         <div class="col-12 col-md">
-            <small class="d-block mb-3 text-muted">&copy; 2020-2021 <br> Soen 287</small>
+          <small class="d-block mb-3 text-muted">&copy; 2020-2021 </br> Soen 287</small>
         </div>
         <div class="col-6 col-md">
-            <h5>Team</h5>
-            <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="#">Matthew Pan</a></li>
-                <li><a class="text-muted" href="#">Ribelle El Ayoubi</a></li>
-                <li><a class="text-muted" href="#">Mohammed Ali Zahir</a></li>
-                <li><a class="text-muted" href="#">Maya McRae</a></li>
-                <li><a class="text-muted" href="#">Lea Lakkis</a></li>
-                <li><a class="text-muted" href="#">Mira Aji</a></li>
-            </ul>
+          <h5>Team</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted">Matthew Pan</a></li>
+            <li><a class="text-muted">Ribelle El Ayoubi</a></li>
+            <li><a class="text-muted">Mohammad Ali Zahir</a></li>
+            <li><a class="text-muted">Maya McRae</a></li>
+            <li><a class="text-muted">Lea Lakkis</a></li>
+            <li><a class="text-muted">Mira Aji</a></li>
+          </ul>
         </div>
         <div class="col-6 col-md">
-            <h5>About</h5>
-            <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="#">Locations (Coming soon)</a></li>
-                <li><a class="text-muted" href="#">Privacy</a></li>
-                <li><a class="text-muted" href="#">Terms</a></li>
-            </ul>
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted">Locations (Coming soon)</a></li>
+            <li><a class="text-muted">Privacy</a></li>
+            <li><a class="text-muted">Terms</a></li>
+          </ul>
         </div>
         <div class="col-6 col-md">
-            <h5>Features</h5>
-            <ul class="list-unstyled text-small">
-                <li><a class="text-muted" href="#">Coming Soon</a></li>
-            </ul>
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted">Coming Soon</a></li>
+            <li><a class="text-muted" href="#top">Jump to top of page</a></li>
+          </ul>
         </div>
-    </div>
-
-
-</footer>
+      </div>
+    </footer>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
 <script src="../../../../assets/js/vendor/popper.min.js"></script>

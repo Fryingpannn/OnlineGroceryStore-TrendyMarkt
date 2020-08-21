@@ -65,6 +65,7 @@ function addThisMuch(){
     let picPath = document.getElementById("itemPic").src;
     console.log("this is the serial id : "+serialIDP3);
     addToCart(name, serialIDP3, unit, price, quantity, picPath);
+    alert("Item has been added to your Trendy Markt Cart! :)");
 }
 //increments quantity IN THE CART PAGE, when the items already exist in the cart lust,
 // and the "addtocart" button is pressed from the p3 page

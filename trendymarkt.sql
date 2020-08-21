@@ -38,12 +38,12 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`idUsers`, `first_nameUsers`, `emailUsers`, `pwdUsers`) VALUES
-(1, 'Matthew', 'matt.xqsf@hotmail.com', '$2y$10$tujkAGn09AAwYnVqPSt5g.dFaSFQYn3utRT3EI0MjaxMoIopcWaBG'),
-(2, 'Duke', 'matthewdukepan@gmail.com', '$2y$10$f.NyoeCzkd4sgJX/ElLZb.DwnpDKw08R6LTJuoE99nlYMKc.Wca4a'),
+(1, 'Matthew', 'matt@hotmail.com', '$2y$10$tujkAGn09AAwYnVqPSt5g.dFaSFQYn3utRT3EI0MjaxMoIopcWaBG'),
+(2, 'Duke', 'matt@gmail.com', '$2y$10$f.NyoeCzkd4sgJX/ElLZb.DwnpDKw08R6LTJuoE99nlYMKc.Wca4a'),
 (3, 'test', 'test@gmail.com', '$2y$10$Tbv93f2zMgu8lgqF90PJyuNRZQfc9BY/NcY6qulh0P9jfOIX9KBOW'),
 (4, 'admin', 'admin@trendymarkt.com', '$2y$10$XB8g9lBt6paK4RtVSmalD.Y7ds4aCQByjZVNod0VyuBmypq3MORV.'),
 (5, 'Joblo', 'general@skyline.com', '$2y$10$zoKCKfMZtmP1Oswk6aTdBeABvZpCmIfVg36KW297ZQcEzMTQwFp9O'),
-(6, 'John', 'general-skyline@hotmail.com', '$2y$10$exFNFEe0dh0QgSIXi64s..DJDGaM9XpIvTXe5.bA1Tlntkm5G2J4S'),
+(6, 'John', 'skyline@hotmail.com', '$2y$10$exFNFEe0dh0QgSIXi64s..DJDGaM9XpIvTXe5.bA1Tlntkm5G2J4S'),
 (7, 'Cookie', 'cookie@cookie.com', '$2y$10$7aLApq2UaMhXqcon2AIStuE.O9mLvAvBDqUTxMZ6YFZtI6zs5WZWu');
 
 --

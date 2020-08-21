@@ -35,7 +35,7 @@
           if(isset($_GET['error']) && $_GET['error'] == 'wrongpwd') 
             echo '<p class="text-danger text-center">Incorrect password.</br>Please try again.</p>';
           else if(isset($_GET['error']) && $_GET['error'] == 'emailDNE')
-          echo '<p class="text-danger text-center">Unregistered email.</br>Please try again.</p>';
+            echo '<p class="text-danger text-center">Unregistered email.</br>Please try again.</p>';
           ?>
           <form class="form-group" action="includes/login.inc.php" method="post">
                 <div class="textbox">

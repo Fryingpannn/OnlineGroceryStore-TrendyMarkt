@@ -58,12 +58,17 @@ html {box-sizing: border-box;}
 </style>
 </head>
 <body>
-    <nav class="site-header sticky-top py-1 border rounded">
+<nav class="site-header sticky-top py-1 border rounded">
       <div class="container d-flex justify-content-between">
         <a class="py-2" href="index.php">Home</a> 
         <a class="py-2" href="p13-aboutus.php">About us</a> 
         <a class="py-2" href="p4-cart.php">Cart</a>
-        <a class="py-2" href="p6-signup.php">Sign up</a>
+        <?php
+        if(!isset($_SESSION['userId']))
+          echo '<a class="py-2" href="p6-signup.php">Sign up</a>';
+        if(isset($_SESSION['userName']) && $_SESSION['userName'] == 'admin')
+          echo '<a class="btn btn-warning text-dark" type="button" role="button" href="p7-productlist.php">Back Store</a>';
+        ?>
       </div>
     </nav>
     <!-- Banner/Header -->
@@ -130,26 +135,27 @@ html {box-sizing: border-box;}
           <div class="col-6 col-md">
             <h5>Team</h5>
             <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Matthew Pan</a></li>
-              <li><a class="text-muted" href="#">Ribelle El Ayoubi</a></li>
-              <li><a class="text-muted" href="#">Mohammad Ali Zahir</a></li>
-              <li><a class="text-muted" href="#">Maya McRae</a></li>
-              <li><a class="text-muted" href="#">Lea Lakkis</a></li>
-              <li><a class="text-muted">Mira Aji</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-            <h5>About</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="">Locations (Coming soon)</a></li>
-              <li><a class="text-muted">Privacy</a></li>
-              <li><a class="text-muted">Terms</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-            <h5>Features</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Coming Soon</a></li>
+            <li><a class="text-muted">Matthew Pan</a></li>
+            <li><a class="text-muted">Ribelle El Ayoubi</a></li>
+            <li><a class="text-muted">Mohammad Ali Zahir</a></li>
+            <li><a class="text-muted">Maya McRae</a></li>
+            <li><a class="text-muted">Lea Lakkis</a></li>
+            <li><a class="text-muted">Mira Aji</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted">Locations (Coming soon)</a></li>
+            <li><a class="text-muted">Privacy</a></li>
+            <li><a class="text-muted">Terms</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Features</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted">Coming Soon</a></li>
+            <li><a class="text-muted" href="#top">Jump to top of page</a></li>
             </ul>
           </div>
         </div>

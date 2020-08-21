@@ -68,9 +68,18 @@
       <form class="row">
         <div class="col">
           <label for="email" class="lead">Enter your email to receive 10$ off on your first purchase!&nbsp
-            <input type="email" name="email" id="email" class="col-12 col-md-3">
-            <button class="btn btn-outline-warning m-2" type="submit" href="#">Submit</button>
+            <input type="email" name="email" id="emailSub" class="col-12 col-md-3">
+      <button class="btn btn-outline-warning m-2" onclick="checkSub();">Submit</button>
           </label>
+          <script type="text/javaScript">
+              function checkSub(){
+                if(document.getElementById('emailSub').value.length == 0)
+                  alert("Please input an email address.");
+                else
+                  alert("You will receive the promo code shortly :)");
+                return false;
+              }
+          </script>
         </div>
       </form>
     </div>

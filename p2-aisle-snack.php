@@ -68,9 +68,18 @@
       <form class="row">
         <div class="col">
           <label for="email" class="lead">Enter your email to receive 10$ off on your first purchase!&nbsp
-            <input type="email" name="email" id="email" class="col-12 col-md-3">
-            <button class="btn btn-outline-warning m-2" type="submit" href="#">Submit</button>
+            <input type="email" name="email" id="emailSub" class="col-12 col-md-3">
+      <button class="btn btn-outline-warning m-2" onclick="checkSub();">Submit</button>
           </label>
+          <script type="text/javaScript">
+              function checkSub(){
+                if(document.getElementById('emailSub').value.length == 0)
+                  alert("Please input an email address.");
+                else
+                  alert("You will receive the promo code shortly :)");
+                return false;
+              }
+          </script>
         </div>
       </form>
     </div>
@@ -82,26 +91,27 @@
         <div class="col-6 col-md">
           <h5>Team</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Matthew Pan</a></li>
-            <li><a class="text-muted" href="#">Ribelle El Ayoubi</a></li>
-            <li><a class="text-muted" href="#">Mohammad Ali Zahir</a></li>
-            <li><a class="text-muted" href="#">Maya McRae</a></li>
-            <li><a class="text-muted" href="#">Lea Lakkis</a></li>
-            <li><a class="text-muted" href="#">Mira Aji</a></li>
+            <li><a class="text-muted">Matthew Pan</a></li>
+            <li><a class="text-muted">Ribelle El Ayoubi</a></li>
+            <li><a class="text-muted">Mohammad Ali Zahir</a></li>
+            <li><a class="text-muted">Maya McRae</a></li>
+            <li><a class="text-muted">Lea Lakkis</a></li>
+            <li><a class="text-muted">Mira Aji</a></li>
           </ul>
         </div>
         <div class="col-6 col-md">
           <h5>About</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Locations (Coming soon)</a></li>
-            <li><a class="text-muted" href="#">Privacy</a></li>
-            <li><a class="text-muted" href="#">Terms</a></li>
+            <li><a class="text-muted">Locations (Coming soon)</a></li>
+            <li><a class="text-muted">Privacy</a></li>
+            <li><a class="text-muted">Terms</a></li>
           </ul>
         </div>
         <div class="col-6 col-md">
           <h5>Features</h5>
           <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Coming Soon</a></li>
+            <li><a class="text-muted">Coming Soon</a></li>
+            <li><a class="text-muted" href="#top">Jump to top of page</a></li>
           </ul>
         </div>
       </div>
