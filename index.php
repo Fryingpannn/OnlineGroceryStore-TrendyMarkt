@@ -52,25 +52,25 @@
           you the most popular nutriments at the cheapest price. </p>
       </div>
     </div>
-    <!-- First row of 2 aisles -->
-    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <a href="p2-aisle-vegetable.php"> <!-- 1st aisle -->
-      <div class="veggies aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
-        <div class="my-3 py-3 border" >
-          <h2 class="display-5">Trendy Vegetables</h2>
+    <!-- 1st row of aisles -->
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3 ">
+      <a href="p2-aisle-snack.php"> <!-- 5th aisle -->
+      <div class="snacks aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
+        <div class="my-3 p-3 border">
+          <h2 class="display-5">Trendy Snacks</h2>
           <p class="display-5">Aisle 1</p>
         </div>
         <div style="height: 300px;"></div>
       </div>
       </a>
-      <a href="p2-aisle-fruit.php">  <!-- 2nd aisle -->
-      <div class="fruits aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
-        <div class="my-3 py-3 border">
-          <h2 class="display-5">Trendy Fruits</h2>
-          <p class="display-5">Aisle 2</p>
+      <a href="p2-aisle-pastry.php"> <!-- 6th aisles -->
+        <div class="pastry aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
+          <div class="my-3 py-3 border">
+            <h2 class="display-5">Trendy Pastry</h2>
+            <p class="display-5">Aisle 2</p>
+          </div>
+          <div style="height: 300px;"></div>
         </div>
-        <div style="height: 303px;"></div>
-      </div>
       </a>
     </div>
     <!-- 2nd row of aisles -->
@@ -94,25 +94,25 @@
         </div>
       </a>
     </div>
-    <!-- 3rd row of aisles -->
-    <div class="d-md-flex flex-md-equal w-100 my-md-6 pl-md-3">
-      <a href="p2-aisle-snack.php"> <!-- 5th aisle -->
-      <div class="snacks aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
-        <div class="my-3 p-3 border">
-          <h2 class="display-5">Trendy Snacks</h2>
+    <!-- 3rd row of 2 aisles -->
+    <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+      <a href="p2-aisle-vegetable.php"> <!-- 1st aisle -->
+      <div class="veggies aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
+        <div class="my-3 py-3 border" >
+          <h2 class="display-5">Trendy Vegetables</h2>
           <p class="display-5">Aisle 5</p>
         </div>
         <div style="height: 300px;"></div>
       </div>
       </a>
-      <a href="p2-aisle-pastry.php"> <!-- 6th aisles -->
-        <div class="pastry aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
-          <div class="my-3 py-3 border">
-            <h2 class="display-5">Trendy Pastry</h2>
-            <p class="display-5">Aisle 6</p>
-          </div>
-          <div style="height: 300px;"></div>
+      <a href="p2-aisle-fruit.php">  <!-- 2nd aisle -->
+      <div class="fruits aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
+        <div class="my-3 py-3 border">
+          <h2 class="display-5">Trendy Fruits</h2>
+          <p class="display-5">Aisle 6</p>
         </div>
+        <div style="height: 303px;"></div>
+      </div>
       </a>
     </div>
     <!-- 4th row; miscellaneous-->
