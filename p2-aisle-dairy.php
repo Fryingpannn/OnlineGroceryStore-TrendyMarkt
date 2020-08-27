@@ -51,7 +51,7 @@
       <div class="dairy2 aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
         <div class="my-3 py-3 border">
           <h2 class="display-5">Milk</h2>
-          <p class="display-5 small">You'll love it</p>
+          <p class="display-5 small">Smooooooth</p>
         </div>
         <div style="height: 303px;"></div>
       </div>
