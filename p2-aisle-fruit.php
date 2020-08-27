@@ -23,7 +23,7 @@
     <div class="border rounded banner shadow-lg p-1 text-center text-white">
       <div class="col-md-6 mx-auto my-3">
         <h1 class="display-4 font-weight-normal">Trendy Fruits<span class="spinner spinner-grow spinner-grow-sm text-warning"></span></h1>
-        <p class="lead font-weight-normal">Aisle 5</p>
+        <p class="lead font-weight-normal">Aisle 2</p>
                <?php
         if(!isset($_SESSION['userId']))
           echo '<a class="btn btn-outline-success" href="p5-signin.php">Login</a>';
