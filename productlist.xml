@@ -272,7 +272,7 @@
     </itemDescription>
     <itemRating>4.5</itemRating>
     <itemPrice>6.99</itemPrice>
-    <itemUnit>ea.</itemUnit>
+    <itemUnit>300mg</itemUnit>
     <itemSerial>50000003</itemSerial>
     <itemIngredients>
       Dough
@@ -289,7 +289,7 @@
     </itemDescription>
     <itemRating>4.5</itemRating>
     <itemPrice>1.5</itemPrice>
-    <itemUnit>lb</itemUnit>
+    <itemUnit>5lb</itemUnit>
     <itemSerial>60000001</itemSerial>
     <itemIngredients>green peas</itemIngredients>
     <stockQuantity>15</stockQuantity>
@@ -301,8 +301,8 @@
     <itemDescription>Freshly grown Tomato. You need an entire life just to know about tomatoes.
     </itemDescription>
     <itemRating>4.5</itemRating>
-    <itemPrice>2.4</itemPrice>
-    <itemUnit>lb</itemUnit>
+    <itemPrice>0.99</itemPrice>
+    <itemUnit>ea</itemUnit>
     <itemSerial>60000002</itemSerial>
     <itemIngredients>red tomatoes</itemIngredients>
     <stockQuantity>15</stockQuantity>
@@ -313,8 +313,8 @@
     <itemName>Peppers</itemName>
     <itemDescription>Freshly grown peppers</itemDescription>
     <itemRating>4.5</itemRating>
-    <itemPrice>2.4</itemPrice>
-    <itemUnit>lb</itemUnit>
+    <itemPrice>0.99</itemPrice>
+    <itemUnit>ea</itemUnit>
     <itemSerial>60000003</itemSerial>
     <itemIngredients>Just some Peppers</itemIngredients>
     <stockQuantity>15</stockQuantity>
