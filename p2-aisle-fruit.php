@@ -36,7 +36,7 @@
       <div class="fruit1 aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
         <div class="my-3 py-3 border" >
           <h4 class="display-5">Ataulfo Mango</h4>
-          <p class="display-5 small">Not your typical mango!</p>
+          <p class="display-5 small">Fresh from the islands</p>
         </div>
         <div style="height: 300px;"></div>
       </div>
@@ -54,7 +54,7 @@
       <div class="fruit3 aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
         <div class="my-3 py-3 border">
           <h2 class="display-5">Peach</h2>
-          <p class="display-5 small">You already know</p>
+          <p class="display-5 small">Juicy Peaches</p>
         </div>
         <div style="height: 303px;"></div>
       </div>

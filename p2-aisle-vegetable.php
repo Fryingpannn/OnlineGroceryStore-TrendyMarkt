@@ -39,7 +39,7 @@
       <div class="veggie1 aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
         <div class="my-3 py-3 border" >
           <h4 class="display-5">Peas</h4>
-          <p class="display-5 small">Better than ever Peas/<p>
+          <p class="display-5 small">Tasty Peas<p>
         </div>
         <div style="height: 300px;"></div>
       </div>
@@ -48,7 +48,7 @@
       <div class="veggie2 aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
         <div class="my-3 py-3 border">
           <h2 class="display-5">Tomatoes</h2>
-          <p class="display-5 small">You already know</p>
+          <p class="display-5 small">The Freshest Red</p>
         </div>
         <div style="height: 303px;"></div>
       </div>
@@ -57,7 +57,7 @@
         <div class="veggie3 aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
           <div class="my-3 p-3 border">
             <h2 class="display-5">Peppers</h2>
-            <p class="display-5">Actual Peppers</p>
+            <p class="display-5 small">The Hottest Spice</p>
           </div>
           <div style="height: 300px;"></div>
         </div>

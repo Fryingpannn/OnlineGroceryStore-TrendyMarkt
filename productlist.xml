@@ -17,7 +17,7 @@
     <itemName>Ataulfo Mango</itemName>
     <itemDescription>Mango Ataulfo, also known as Champagne Mango due to their golden yellow outer skin, are produced in Mexico. They have a delicious sweet taste with a hint of lemon.</itemDescription>
     <itemRating>4</itemRating>
-    <itemPrice>1.99</itemPrice>
+    <itemPrice>0.70</itemPrice>
     <itemUnit>ea.</itemUnit>
     <itemSerial>20000001</itemSerial>
     <itemIngredients>hello</itemIngredients>
@@ -29,8 +29,8 @@
     <itemName>Red Apple</itemName>
     <itemDescription>These Red apples are incredibly crispy. Beneath its deep red skin lies creamy white flesh that is juicy and sweet. You can snack on it, bake with it, or make juice with it.</itemDescription>
     <itemRating>3.5</itemRating>
-    <itemPrice>2.00</itemPrice>
-    <itemUnit>lb</itemUnit>
+    <itemPrice>0.50</itemPrice>
+    <itemUnit>ea.</itemUnit>
     <itemSerial>20000002</itemSerial>
     <itemIngredients>Empty</itemIngredients>
     <stockQuantity>30</stockQuantity>
@@ -41,7 +41,7 @@
     <itemName>Peach</itemName>
     <itemDescription>Peaches with white flesh typically are very sweet with little acidity, with a sweet floral taste. Check out our peach relish recipe for a cooking inspiration using these wonderful fruits.</itemDescription>
     <itemRating>4.5</itemRating>
-    <itemPrice>1.40</itemPrice>
+    <itemPrice>0.60</itemPrice>
     <itemUnit>ea.</itemUnit>
     <itemSerial>20000003</itemSerial>
     <itemIngredients>epty</itemIngredients>
@@ -289,7 +289,7 @@
     </itemDescription>
     <itemRating>4.5</itemRating>
     <itemPrice>1.5</itemPrice>
-    <itemUnit>5lb</itemUnit>
+    <itemUnit> lb</itemUnit>
     <itemSerial>60000001</itemSerial>
     <itemIngredients>green peas</itemIngredients>
     <stockQuantity>15</stockQuantity>
@@ -302,7 +302,7 @@
     </itemDescription>
     <itemRating>4.5</itemRating>
     <itemPrice>0.99</itemPrice>
-    <itemUnit>ea</itemUnit>
+    <itemUnit>ea.</itemUnit>
     <itemSerial>60000002</itemSerial>
     <itemIngredients>red tomatoes</itemIngredients>
     <stockQuantity>15</stockQuantity>
@@ -314,7 +314,7 @@
     <itemDescription>Freshly grown peppers</itemDescription>
     <itemRating>4.5</itemRating>
     <itemPrice>0.99</itemPrice>
-    <itemUnit>ea</itemUnit>
+    <itemUnit>ea.</itemUnit>
     <itemSerial>60000003</itemSerial>
     <itemIngredients>Just some Peppers</itemIngredients>
     <stockQuantity>15</stockQuantity>

@@ -32,12 +32,10 @@
             you the most popular nutriments at the cheapest price. </p>
     </div>
 </div>
-
-
 <div class="container productwrap shadow-lg mt-3">
       <div class="row">
           <div class="col-md-4 order-2 order-md-1 p-2 m-3 border">
-              <img src="testestest"  alt="snacks1" id='itemPic' style="padding-top:50px; margin-top:50px;max-height:70%; justify-content: center;">
+              <img src="testestest"  alt="snacks1" id='itemPic'>
           </div>
           <div class="col-md-7 order-1 order-md-2 p-2 my-3 border rounded">
               <p class="text-center pt-3 font-weight-bold">Trendy</p>
@@ -67,20 +65,8 @@
           </div>
       </div>
   </div>
-
-
-
     <script type="text/javascript" src="CartScript.js">
     </script>
-
-
-
-
-
-
-
-
-
      <footer class="container py-5">
       <div class="row">
         <div class="col-12 col-md">

@@ -32,7 +32,6 @@
             you the most popular nutriments at the cheapest price. </p>
     </div>
 </div>
-
 <!------------ Product section -->
     <div class="container productwrap shadow-lg mt-3">
         <div class="row">
@@ -101,10 +100,6 @@
           </ul>
         </div>
       </div>
-
-        <?php
-        addProductID();
-        ?>
     </footer>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

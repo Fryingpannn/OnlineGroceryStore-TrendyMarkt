@@ -1,5 +1,4 @@
 <?php  ?>
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -102,12 +101,10 @@
       </div>
     </footer>
 <script type="text/javascript" src="CartScript.js "></script>
-
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     <script type="text/Javascript" src="validation.js"></script>
    // <script src="validationr.js"></script>
   </body>
-
 </html>

@@ -37,7 +37,7 @@
     <div class="container productwrap shadow-lg mt-3">
         <div class="row">
             <div class="col-md-4 order-2 order-md-1 p-2 m-3 border">
-                <img src="testestest" name="itemPicPath" id="itemPic" alt="snacks1">
+                <img src="testestest" name="itemPicPath" id="itemPic" alt="snacks1" style="object-position: 80%;">
             </div>
             <div class="col-md-7 order-1 order-md-2 p-2 my-3 border rounded">
                 <p class="text-center pt-3 font-weight-bold">Trendy</p>
