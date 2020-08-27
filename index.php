@@ -58,7 +58,7 @@
       <div class="veggies aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
         <div class="my-3 py-3 border" >
           <h2 class="display-5">Trendy Vegetables</h2>
-          <p class="display-5">Aisle 5</p>
+          <p class="display-5">Aisle 1</p>
         </div>
         <div style="height: 300px;"></div>
       </div>
@@ -67,7 +67,7 @@
       <div class="fruits aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
         <div class="my-3 py-3 border">
           <h2 class="display-5">Trendy Fruits</h2>
-          <p class="display-5">Aisle 6</p>
+          <p class="display-5">Aisle 2</p>
         </div>
         <div style="height: 303px;"></div>
       </div>
@@ -100,7 +100,7 @@
       <div class="snacks aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
         <div class="my-3 p-3 border">
           <h2 class="display-5">Trendy Snacks</h2>
-          <p class="display-5">Aisle 1</p>
+          <p class="display-5">Aisle 5</p>
         </div>
         <div style="height: 300px;"></div>
       </div>
@@ -109,7 +109,7 @@
         <div class="pastry aisle border rounded shadow-lg mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-black-50 overflow-hidden">
           <div class="my-3 py-3 border">
             <h2 class="display-5">Trendy Pastry</h2>
-            <p class="display-5">Aisle 2</p>
+            <p class="display-5">Aisle 6</p>
           </div>
           <div style="height: 300px;"></div>
         </div>
