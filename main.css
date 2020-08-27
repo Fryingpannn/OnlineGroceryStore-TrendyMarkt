@@ -84,7 +84,7 @@ body {
   .fruit3 {background-image: url("Pictures/peach2.jpg");}
 /* >>> [P2] Aisle 3: Dairy*/
   .dairy1 {background-image: url("Pictures/eggs.jpg");}
-  .dairy2 {background-image: url("Pictures/milk.jpg"); background-position: bottom;}
+  .dairy2 {background-image: url("Pictures/milk.jpg"); top:70%;}
   .dairy3 {background-image: url("Pictures/cheese.jpg");}
 /*>>> [P2] Aisle 4: Meat<*/
   .meat1 {background-image: url("Pictures/burger.jpg");}
