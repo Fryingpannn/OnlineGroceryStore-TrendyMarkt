@@ -7,7 +7,7 @@
 > #### Here are some of my responsibilities during this project:
 > - Designed general website layout and grocery store concept
 > - Created the index.php home page, signin.php, as well as the template for all aisle (p2) & product pages (p3) (HTML/CSS/Bootstrap, Fully responsive)
-> - Created the entire login system: connected login, sign up and user list pages to allow showing/editing/deleting registered users as admin (MySQL, PHP (sessions))
+> - Created the entire login system: connected login, sign up and user list pages to allow CRUD operations when logged in as admin (MySQL, PHP (sessions))
 > - Implemented user validation on various pages (Javascript (Event handling))
 > - Deployed the website with remote database (on Google Firebase & Heroku (MySQL Workbench))
 > - Lead the team: organized meetings, separation of tasks, structure of products and files, merged all files, helped teammates debug, testing, etc.
