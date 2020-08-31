@@ -75,7 +75,7 @@
                     <input type="text" name="last_name" id="last_name">
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="collum30">
                     <label for="address">Address</label>
                 </div>
@@ -90,7 +90,7 @@
                 <div class="collum70">
                     <input type = "text" name="postalcode" id = "postalcode"/>
                 </div>
-            </div>
+            </div> -->
             <div class="row">
                 <div class="collum30">
                     <label for="province">Province</label>
