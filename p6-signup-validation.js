@@ -63,10 +63,10 @@ function confirmemail(){
 function chkPassword() {
     
   var pw = document.getElementById("password");
-  var form_pw = pw.value.search(/^(?=.*[a-z])(?=.*[!@#$%^&*])(?=.*\d)(?=.*[A-Z]).{8,20}$/); //search for value containing a lowercase and uppercase letter, one number, a special character and be between 8-20 characters long.
+  var form_pw = pw.value.search(/^(?=.*[a-z])(?=.*\d)(?=.*[A-Z]).{8,20}$/); //search for value containing a lowercase and uppercase letter, one number, a special character and be between 8-20 characters long.
 
   if (form_pw != 0) { //if search is not found, alert
-    alert("Passwords must contain a lowercase and uppercase letter, one number, a special character and be between 8-20 characters long.");
+    alert("Passwords must contain at least one lowercase and uppercase letter, one number, and be between 8-20 characters long.");
     pw.focus();
     pw.select();
     return false;
