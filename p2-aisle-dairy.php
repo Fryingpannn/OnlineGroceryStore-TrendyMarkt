@@ -32,7 +32,7 @@
         if(!isset($_SESSION['userId']))
           echo '<a class="btn btn-outline-success" href="p5-signin.php">Login</a>';
         ?>
-        <p class="small pt-4">All items are 100% quality ensured and carefully packaged using sustainable cartons.</br>Have a look at our wonderful snack collection!</p>
+        <p class="small pt-4">All items are 100% quality ensured and carefully packaged using sustainable cartons.</br>Have a look at our wonderful dairy collection!</p>
       </div>
     </div>
     <!-- Row of 3 products -->
