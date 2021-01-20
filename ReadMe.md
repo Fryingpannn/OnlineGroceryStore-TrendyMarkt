@@ -12,6 +12,8 @@
 > - Deployed the website with remote database (on Google Firebase & Heroku (MySQL Workbench))
 > - Lead the team: organized meetings, separation of tasks, structure of products and files, merged all files, helped teammates debug, testing, etc.
 
+Note: Since this was my first website made, yes we completely violated the 'DRY' principle and the code isn't exactly good.
+
 #### Desktop preview:
 ![trendy2](https://user-images.githubusercontent.com/59063950/90841957-1181b200-e32c-11ea-8829-77f1760d9125.png)
 #### Mobile Preview:
